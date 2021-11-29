@@ -238,6 +238,40 @@ section {
   grid-template-rows: repeat(6);
   column-gap: 1rem; }
 
+/*..Media Querys..*/
+/*...............................................................................................................
+.................................................................................................................*/
+/*_____________Tablet vertical o menos____________________________*/
+@media (max-width: 1023px) {
+  /*____________________HEADER/ASIDE__________________________________*/
+  aside {
+    max-height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 100; }
+  header {
+    visibility: hidden;
+    display: none; }
+  .responsive {
+    visibility: hidden;
+    display: none; }
+  .grid-principal {
+    display: grid;
+    grid-template-rows: row row;
+    grid-template-columns: auto; }
+  .logo-movil {
+    max-width: 200px; }
+  .horizontal {
+    display: inline; }
+  /* .fijo {
+                    
+                    Corregir que el dropdown no rompa la estructura
+                } */
+  .menu-horizontal {
+    visibility: visible;
+    display: block; }
+  /*____________________FOOTER__________________________________*/ }
+
 /*--Referencias--*/
 /*
 - En clases.html // __estilo-main-clases.scss>.fondo-clases se utiliza:

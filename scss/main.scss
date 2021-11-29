@@ -20,6 +20,10 @@ ________________________________________________________________________________
     @import "__estilo-main-sobremi.scss";
     @import "__estilo-main-galeria.scss";
 
+/*..Media Querys..*/
+    @import "__estilo-tablet";
+    @import "__estilo-movil";
+
 /*--Referencias--*/
 /*
 - En clases.html // __estilo-main-clases.scss>.fondo-clases se utiliza:
