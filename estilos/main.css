@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /*<<<<<<<<<<<<<<<<<_______________INFO_______________>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Tipografía: font-family: 'Josefin Sans', sans-serif;
+Tipografía: 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px = 0,875 rem
 Paleta de color: color: white; color: black; rgb(39, 39, 39); rgb(53, 53, 53); rgb(104, 104, 104);
 ____________________________________________________________________________________________________________________________*/
 /*................IMPORTS....................*/
@@ -14,6 +16,83 @@ aside {
     padding: 0,5rem; }
 
 /*-----------------------------------FOOTER-----------------------------------*/
+/*-----------------------------------GENERAL-----------------------------------*/
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0rem;
+  font-size: 0,875rem; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+li {
+  list-style: none; }
+
+section {
+  padding: 3rem; }
+
+.fondo-ilus {
+  background-image: url(../imagenes/fondo4.jpg);
+  height: 400px; }
+
+.grid-principal {
+  display: grid;
+  grid-template-columns: 20% auto;
+  grid-template-rows: repeat(auto); }
+
+/*---------------------------Texto---------------------------*/
+.texto-blanco {
+  color: white; }
+
+.texto-resaltado {
+  font-weight: bold; }
+
+.texto-pequeño {
+  font-size: 80%; }
+
+.texto-centrado {
+  text-align: center; }
+
+.texto-derecha {
+  text-align: right; }
+
+.todo-mayus {
+  text-transform: uppercase; }
+
+.titulo {
+  margin: 3rem;
+  margin-bottom: 0rem; }
+
+/*---------------------------Imágenes---------------------------*/
+.imagen-filtro:hover {
+  filter: saturate(50%); }
+
+.imagen-filtro {
+  width: 100%;
+  height: 80vh;
+  object-fit: contain;
+  margin-bottom: 2rem; }
+
+.imagen-prueba {
+  max-width: 100%;
+  max-height: 100%; }
+
+.inclinar-derecha:hover {
+  transform: rotate(8deg) translate(6px, 0px); }
+
+.inclinar-izquierda:hover {
+  transform: rotate(352deg) translate(0px, 6px); }
+
+.subir:hover {
+  transform: translateY(-8px); }
+
+.icon {
+  max-width: 25px; }
+
+.sombra-izquierda {
+  box-shadow: -5px 5px 10px 4px #000000; }
+
 /*..Estilos específicos de cada página html..*/
 /*-----------------------------------MAIN INDEX-----------------------------------*/
 /*-----------------------------------MAIN CLASES-----------------------------------*/
