@@ -140,6 +140,18 @@ section {
 
 /*..Estilos específicos de cada página html..*/
 /*-----------------------------------MAIN INDEX-----------------------------------*/
+.fondo-portfolio-index {
+  background-color: #686868; }
+
+.fondo-eventos-index {
+  background-color: #353535; }
+
+.caja-prueba {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 1rem; }
+
 /*-----------------------------------MAIN CLASES-----------------------------------*/
 /*-----------------------------------MAIN CONTACTO-----------------------------------*/
 /*-----------------------------------MAIN EVENTOS-----------------------------------*/
