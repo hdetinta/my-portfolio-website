@@ -1,1 +1,17 @@
 /*-----------------------------------MAIN CONTACTO-----------------------------------*/
+.datos {
+    font-style: italic;
+    font-size: 80%;
+    font-weight: none;
+}
+.contacto-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 3rem;
+}
+.item-formulario {
+    align-self: center;
+}
+.divisor {
+    margin: 1rem;
+}
