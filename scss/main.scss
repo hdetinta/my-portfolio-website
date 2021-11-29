@@ -1,0 +1,18 @@
+/*<<<<<<<<<<<<<<<<<_______________INFO_______________>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Tipografía: font-family: 'Josefin Sans', sans-serif;
+Paleta de color: color: white; color: black; rgb(39, 39, 39); rgb(53, 53, 53); rgb(104, 104, 104);
+____________________________________________________________________________________________________________________________*/
+
+/*................IMPORTS....................*/ 
+
+/*..Estilos comunes....*/
+@import "__estilo-aside.scss";
+@import "__estilo-footer.scss";
+
+/*..Estilos específicos de cada página html..*/
+@import "__estilo-main-index.scss";
+@import "__estilo-main-clases.scss";
+@import "__estilo-main-contacto.scss";
+@import "__estilo-main-eventos.scss";
+@import "__estilo-main-sobremi.scss";
+@import "__estilo-main-galeria.scss";
