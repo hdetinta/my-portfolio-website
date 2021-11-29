@@ -1,14 +1,15 @@
 {
-  "name": "terceraentrega-machado",
+  "name": "cuarta entrega de helena machado",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cuarta entrega de proyecto en curso de desarrollo web para Coderhouse, consistente en mi web profesional como ilustradora.",
   "main": "index.js",
+  "homepage": " https://hdetinta.github.io/my-portfolio-website/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss estilos/main.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "Helena Machado",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",
