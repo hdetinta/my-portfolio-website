@@ -6,13 +6,15 @@ ________________________________________________________________________________
 /*................IMPORTS....................*/ 
 
 /*..Estilos comunes....*/
-@import "__estilo-aside.scss";
-@import "__estilo-footer.scss";
+    @import "__estilo-aside.scss";
+    @import "__estilo-footer.scss";
+    @import "__estilo-general.scss";
 
 /*..Estilos específicos de cada página html..*/
-@import "__estilo-main-index.scss";
-@import "__estilo-main-clases.scss";
-@import "__estilo-main-contacto.scss";
-@import "__estilo-main-eventos.scss";
-@import "__estilo-main-sobremi.scss";
-@import "__estilo-main-galeria.scss";
+    @import "__estilo-main-index.scss";
+    @import "__estilo-main-clases.scss";
+    @import "__estilo-main-contacto.scss";
+    @import "__estilo-main-eventos.scss";
+    @import "__estilo-main-sobremi.scss";
+    @import "__estilo-main-galeria.scss";
+
