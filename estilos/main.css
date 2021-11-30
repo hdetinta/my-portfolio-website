@@ -45,7 +45,7 @@ aside {
 
 /*-----------------------------------FOOTER-----------------------------------*/
 footer {
-  background-color: #272727;
+  background-image: url(/imagenes/footer.jpg);
   color: white;
   font-size: 80%;
   padding: 1rem; }
@@ -171,6 +171,8 @@ section {
   border-radius: 30px; }
 
 .seccion-materiales {
+  background-image: url(/imagenes/materiales.jpg);
+  background-size: contain;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: minmax(100px, 500px);
@@ -208,6 +210,10 @@ section {
             This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ 
             If you need more, that's where to get'em.
             ======================================================================== */ }
+
+.fondo-funcionamiento {
+  background-image: url(/imagenes/funcionamiento.png);
+  background-size: contain; }
 
 /*-----------------------------------MAIN CONTACTO-----------------------------------*/
 .datos {
