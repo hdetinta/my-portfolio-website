@@ -43,6 +43,9 @@ aside {
   visibility: hidden;
   display: none; }
 
+.dropdown-menu-dark {
+  width: 100%; }
+
 /*-----------------------------------FOOTER-----------------------------------*/
 footer {
   background-image: url(/imagenes/footer.jpg);

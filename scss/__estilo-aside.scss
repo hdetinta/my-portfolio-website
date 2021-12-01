@@ -37,3 +37,9 @@ aside {
     visibility: hidden;
     display: none;
 }
+.dropdown-menu {
+    
+    &-dark {
+        width: 100%;
+    }
+}
