@@ -1,0 +1,303 @@
+@charset "UTF-8";
+/*<<<<<<<<<<<<<<<<<_______________INFO_______________>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Tipografía: 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px = 0,875 rem
+Paleta de color: color: white; color: black; rgb(39, 39, 39); rgb(53, 53, 53); rgb(104, 104, 104);
+____________________________________________________________________________________________________________________________*/
+/*................IMPORTS....................*/
+/*..Estilos comunes....*/
+/*-----------------------------------ASIDE-----------------------------------*/
+aside {
+  background-color: black;
+  font-size: 20px; }
+  aside nav ul li {
+    margin-top: 1rem;
+    padding: 0,5rem; }
+
+.aside {
+  color: white;
+  font-size: 100%;
+  font-weight: bold;
+  background-color: black; }
+  .aside-logo {
+    margin: 2rem;
+    margin-top: 0;
+    width: 140px;
+    height: 36px; }
+
+.justify {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column; }
+
+.sticky {
+  position: sticky;
+  top: 2rem;
+  z-index: 100; }
+
+.seleccionada {
+  color: #686868; }
+
+.menu-horizontal {
+  visibility: hidden;
+  display: none; }
+
+.dropdown-menu-dark {
+  width: 100%; }
+
+/*-----------------------------------FOOTER-----------------------------------*/
+footer {
+  background-image: url(/imagenes/footer.jpg);
+  color: white;
+  font-size: 80%;
+  padding: 1rem; }
+
+.copyright {
+  font-style: italic;
+  font-weight: none;
+  font-size: 60%;
+  text-align: center; }
+
+.mapa {
+  /*Hacer responsive, genera desplazamiento lateral en dispositivos pequeños*/
+  width: 300px;
+  height: 200px; }
+
+/*-----------------------------------GENERAL-----------------------------------*/
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0rem;
+  font-size: 0,875rem; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+li {
+  list-style: none; }
+
+section {
+  padding: 3rem; }
+
+.fondo-ilus {
+  background-image: url(../imagenes/fondo4.jpg);
+  height: 400px; }
+
+.grid-principal {
+  display: grid;
+  grid-template-columns: 20% auto;
+  grid-template-rows: repeat(auto); }
+
+/*---------------------------Texto---------------------------*/
+.texto-blanco {
+  color: white; }
+
+.texto-resaltado {
+  font-weight: bold; }
+
+.texto-pequeño {
+  font-size: 80%; }
+
+.texto-centrado {
+  text-align: center; }
+
+.texto-derecha {
+  text-align: right; }
+
+.todo-mayus {
+  text-transform: uppercase; }
+
+.titulo {
+  margin: 3rem;
+  margin-bottom: 0rem; }
+
+/*---------------------------Imágenes---------------------------*/
+.imagen-filtro:hover {
+  filter: saturate(50%); }
+
+.imagen-filtro {
+  width: 100%;
+  height: 80vh;
+  object-fit: contain;
+  margin-bottom: 2rem; }
+
+.imagen-prueba {
+  max-width: 100%;
+  max-height: 100%; }
+
+.inclinar-derecha:hover {
+  transform: rotate(8deg) translate(6px, 0px); }
+
+.inclinar-izquierda:hover {
+  transform: rotate(352deg) translate(0px, 6px); }
+
+.subir:hover {
+  transform: translateY(-8px); }
+
+.icon {
+  max-width: 25px; }
+
+.sombra-izquierda {
+  box-shadow: -5px 5px 10px 4px #000000; }
+
+/*..Estilos específicos de cada página html..*/
+/*-----------------------------------MAIN INDEX-----------------------------------*/
+.fondo-portfolio-index {
+  background-color: #686868; }
+
+.fondo-eventos-index {
+  background-color: #353535; }
+
+.caja-prueba {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 1rem; }
+
+/*-----------------------------------MAIN CLASES-----------------------------------*/
+.imagen-max-espacio {
+  max-width: fit-content;
+  max-height: 500px;
+  object-fit: cover; }
+
+.enfasis {
+  font-size: 200%;
+  font-weight: bold; }
+
+.aviso {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border: dotted 10px white;
+  border-radius: 30px; }
+
+.seccion-materiales {
+  background-image: url(/imagenes/materiales.jpg);
+  background-size: contain;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: minmax(100px, 500px);
+  padding: 0px;
+  margin: 0px;
+  border: 0px; }
+  .seccion-materiales div h2 {
+    padding: 1rem;
+    padding-left: 3rem; }
+  .seccion-materiales div p {
+    padding-left: 2rem; }
+
+.item-horarios {
+  background-color: #272727;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+
+.seccion-lugar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  margin: 0px;
+  padding: 0px; }
+  .seccion-lugar div iframe {
+    padding: 2rem; }
+  .seccion-lugar div p {
+    padding-left: 2rem; }
+
+.desobediente {
+  padding: 2rem; }
+
+.fondo-clases {
+  background-image: url(../imagenes/ep_naturalwhite.png);
+  /*=========================================================================
+            This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ 
+            If you need more, that's where to get'em.
+            ======================================================================== */ }
+
+.fondo-funcionamiento {
+  background-image: url(/imagenes/funcionamiento.png);
+  background-size: contain; }
+
+/*-----------------------------------MAIN CONTACTO-----------------------------------*/
+.datos {
+  font-style: italic;
+  font-size: 80%;
+  font-weight: none; }
+
+.contacto-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 3rem; }
+
+.item-formulario {
+  align-self: center; }
+
+.divisor {
+  margin: 1rem; }
+
+/*-----------------------------------MAIN EVENTOS-----------------------------------*/
+.eventos-slider {
+  background-color: grey; }
+
+/*-----------------------------------MAIN SOBRE MÍ-----------------------------------*/
+/*-----------------------------------MAIN GALERÍA-----------------------------------*/
+.portfolio-uno {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(6);
+  column-gap: 1rem; }
+
+/*..Media Querys..*/
+/*...............................................................................................................
+.................................................................................................................*/
+/*_____________Tablet vertical o menos____________________________*/
+@media (max-width: 1023px) {
+  /*____________________HEADER/ASIDE__________________________________*/
+  aside {
+    max-height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 100; }
+  header {
+    visibility: hidden;
+    display: none; }
+  .responsive {
+    visibility: hidden;
+    display: none; }
+  .grid-principal {
+    display: grid;
+    grid-template-rows: row row;
+    grid-template-columns: auto; }
+  .logo-movil {
+    max-width: 200px; }
+  .horizontal {
+    display: inline; }
+  /* .fijo {
+                    
+                    Corregir que el dropdown no rompa la estructura
+                } */
+  .menu-horizontal {
+    visibility: visible;
+    display: block; }
+  /*____________________MAIN GALERÍA__________________________________*/
+  .portfolio-uno {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(9);
+    column-gap: 1rem; } }
+
+/*...............................................................................................................
+.................................................................................................................*/
+/*_____________Móvil horizontal o menos____________________________*/
+@media (max-width: 599px) {
+  /*____________________MAIN GALERÍA__________________________________*/
+  .portfolio-uno {
+    display: grid;
+    grid-template-columns: 1fr; } }
+
+/*--Referencias--*/
+/*
+- En clases.html // __estilo-main-clases.scss>.fondo-clases se utiliza:
+www.toptal.com/designers/subtlepatterns/ 
+- Animación de títulos en todas las páginas wowjs.uk
+*/

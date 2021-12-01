@@ -1,0 +1,33 @@
+/*<<<<<<<<<<<<<<<<<_______________INFO_______________>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Tipografía: 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px = 0,875 rem
+Paleta de color: color: white; color: black; rgb(39, 39, 39); rgb(53, 53, 53); rgb(104, 104, 104);
+____________________________________________________________________________________________________________________________*/
+
+/*................IMPORTS....................*/ 
+
+/*..Estilos comunes....*/
+    @import "__estilo-aside.scss";
+    @import "__estilo-footer.scss";
+    @import "__estilo-general.scss";
+
+/*..Estilos específicos de cada página html..*/
+    @import "__estilo-main-index.scss";
+    @import "__estilo-main-clases.scss";
+    @import "__estilo-main-contacto.scss";
+    @import "__estilo-main-eventos.scss";
+    @import "__estilo-main-sobremi.scss";
+    @import "__estilo-main-galeria.scss";
+
+/*..Media Querys..*/
+    @import "__estilo-tablet";
+    @import "__estilo-movil";
+
+/*--Referencias--*/
+/*
+- En clases.html // __estilo-main-clases.scss>.fondo-clases se utiliza:
+www.toptal.com/designers/subtlepatterns/ 
+- Animación de títulos en todas las páginas wowjs.uk
+*/
+
