@@ -140,13 +140,29 @@
                     <article class="texto-blanco texto-centrado">
                         <h2 class="wow bounceInRight">Precio e información importante</h2>
                             <p>Cuestan 60€ al mes. Los grupos tienen un máximo de 6 alumnos. La incorporación a las clases puede realizarse en cualquier momento del año. No se requiere experiencia previa. A partir de 5 años.</p>
-                        <div class="aviso">
-                            <h3 class="todo-mayus">aviso covid</h3>
-                                <p>Contaremos con las siguientes medidas de seguridad sanitarias para tod@s nosotr@s que estarán vigentes hasta que el Gobierno así lo considere:
-                                No habrá material disponible en clase así que es importate que traigáis vuestro propio material hasta nuevo aviso.
-                                Para garantizar estas medidas higiénicas, se ruega puntualidad en la entrada y salida de las clases para evitar aglomeramientos en el recibidor.
-                                No se vendrá a clase en los siquientes casos: si se es especialmente vulnerable a infecciones respiratorias, si se está embarazada, si se presentan síntomas respiratorios o se cree que se está infectad@, si en el entorno próximo hay una persona de los grupos anteriores.</p>
-                        </div>
+                        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Aviso Covid
+                        </button>
+                            <!--Contenido del botón-->
+                            <div class="modal fade aviso" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title texto-resaltado" id="exampleModalLabel">Medidas Covid19</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Contaremos con las siguientes medidas de seguridad sanitarias para tod@s nosotr@s que estarán vigentes hasta que el Gobierno así lo considere:</p>
+                                        <p>- No habrá material disponible en clase así que <span class="texto-resaltado">es importate que traigáis vuestro propio material</span> hasta nuevo aviso.
+                                        <p>- Para garantizar estas medidas higiénicas, <span class="texto-resaltado">se ruega puntualidad</span> en la entrada y salida de las clases para evitar aglomeramientos en el recibidor.</p>
+                                        <p><span class="texto-resaltado">- No se vendrá a clase en los siquientes casos:</span> Si se es especialmente vulnerable a infecciones respiratorias, si se está embarazada, si se presentan síntomas respiratorios o se cree que se está infectad@, si en el entorno próximo hay una persona de los grupos anteriores.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">¡Entendido!</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                     </article>
                 </div>
             </section>

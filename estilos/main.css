@@ -166,12 +166,8 @@ section {
   font-weight: bold; }
 
 .aviso {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  border: dotted 10px white;
-  border-radius: 30px; }
+  color: black;
+  text-align: left; }
 
 .seccion-materiales {
   background-image: url(/imagenes/materiales.jpg);
