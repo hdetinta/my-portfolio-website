@@ -89,6 +89,12 @@ section {
   grid-template-columns: 20% auto;
   grid-template-rows: repeat(auto); }
 
+.block {
+  display: block; }
+
+.no-margin {
+  margin: 0px; }
+
 /*---------------------------Texto---------------------------*/
 .texto-blanco {
   color: white; }
@@ -292,7 +298,9 @@ section {
   /*____________________MAIN GALERÍA__________________________________*/
   .portfolio-uno {
     display: grid;
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  section {
+    padding: 0rem; } }
 
 /*--Referencias--*/
 /*
