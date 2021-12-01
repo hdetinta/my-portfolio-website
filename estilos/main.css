@@ -236,6 +236,9 @@ section {
   background-color: grey; }
 
 /*-----------------------------------MAIN SOBRE MÍ-----------------------------------*/
+.sobremi-imagen {
+  max-height: 350px; }
+
 /*-----------------------------------MAIN GALERÍA-----------------------------------*/
 .portfolio-uno {
   display: grid;
