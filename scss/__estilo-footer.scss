@@ -1,17 +1,16 @@
 /*-----------------------------------FOOTER-----------------------------------*/
 footer {
-    background-image: url(/imagenes/footer.jpg);
+    background-color: rgb(53, 53, 53);
     color: white;
-    font-size: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     padding: 1rem;
 }
+    
 .copyright {
     font-style: italic;
     font-weight: none;
     font-size: 60%;
     text-align: center;
-    }
-.mapa { /*Hacer responsive, genera desplazamiento lateral en dispositivos pequeños*/
-    width: 300px;
-    height: 200px;
     }

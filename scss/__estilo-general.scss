@@ -16,10 +16,7 @@ li {
 section {
     padding: 3rem;
 }
-.fondo-ilus {
-    background-image: url(../imagenes/fondo4.jpg);
-    height: 400px;
-}
+
 .grid-principal {
     display: grid;
     grid-template-columns: 20% auto;
@@ -82,6 +79,18 @@ section {
         .icon {
             max-width: 25px;
         }
-        .sombra-izquierda {
-            box-shadow: -5px 5px 10px 4px #000000;
+        /*Fondos*/
+        .fondo-papel {
+            background-image:url(../imagenes/ep_naturalwhite.png);
+                    /*=========================================================================
+                    This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ 
+                    If you need more, that's where to get'em.
+                    ======================================================================== */
+        }
+        .fondo-oscuro {
+            background-color: rgb(53, 53, 53);
+        }
+        .fondo-ilus {
+            background-image: url(../imagenes/fondo4.jpg);
+            height: 400px;
         }
