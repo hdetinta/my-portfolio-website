@@ -16,10 +16,7 @@ li {
 section {
     padding: 3rem;
 }
-.fondo-ilus {
-    background-image: url(../imagenes/fondo4.jpg);
-    height: 400px;
-}
+
 .grid-principal {
     display: grid;
     grid-template-columns: 20% auto;
@@ -92,4 +89,8 @@ section {
         }
         .fondo-oscuro {
             background-color: rgb(53, 53, 53);
+        }
+        .fondo-ilus {
+            background-image: url(../imagenes/fondo4.jpg);
+            height: 400px;
         }

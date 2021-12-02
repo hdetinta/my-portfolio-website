@@ -48,9 +48,11 @@ aside {
 
 /*-----------------------------------FOOTER-----------------------------------*/
 footer {
-  background-color: #272727;
+  background-color: #353535;
   color: white;
-  font-size: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   padding: 1rem; }
 
 .copyright {
@@ -58,11 +60,6 @@ footer {
   font-weight: none;
   font-size: 60%;
   text-align: center; }
-
-.mapa {
-  /*Hacer responsive, genera desplazamiento lateral en dispositivos pequeños*/
-  width: 300px;
-  height: 200px; }
 
 /*-----------------------------------GENERAL-----------------------------------*/
 body {
@@ -79,10 +76,6 @@ li {
 
 section {
   padding: 3rem; }
-
-.fondo-ilus {
-  background-image: url(../imagenes/fondo4.jpg);
-  height: 400px; }
 
 .grid-principal {
   display: grid;
@@ -154,6 +147,10 @@ section {
 
 .fondo-oscuro {
   background-color: #353535; }
+
+.fondo-ilus {
+  background-image: url(../imagenes/fondo4.jpg);
+  height: 400px; }
 
 /*..Estilos específicos de cada página html..*/
 /*-----------------------------------MAIN INDEX-----------------------------------*/
