@@ -31,7 +31,7 @@
         }
 }
 .item-horarios {
-    background-color: rgb(39, 39, 39);
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
@@ -51,12 +51,6 @@
 .desobediente { 
     padding: 2rem;
 }
-.fondo-clases {
-    background-image:url(../imagenes/ep_naturalwhite.png);
-            /*=========================================================================
-            This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ 
-            If you need more, that's where to get'em.
-            ======================================================================== */
-}
+
 .fondo-funcionamiento {background-image: url(/imagenes/funcionamiento.png);
 background-size: contain;}

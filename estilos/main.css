@@ -48,7 +48,7 @@ aside {
 
 /*-----------------------------------FOOTER-----------------------------------*/
 footer {
-  background-image: url(./imagenes/footer.jpg);
+  background-color: #272727;
   color: white;
   font-size: 80%;
   padding: 1rem; }
@@ -144,16 +144,21 @@ section {
 .icon {
   max-width: 25px; }
 
-.sombra-izquierda {
-  box-shadow: -5px 5px 10px 4px #000000; }
+/*Fondos*/
+.fondo-papel {
+  background-image: url(../imagenes/ep_naturalwhite.png);
+  /*=========================================================================
+                    This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ 
+                    If you need more, that's where to get'em.
+                    ======================================================================== */ }
+
+.fondo-oscuro {
+  background-color: #353535; }
 
 /*..Estilos específicos de cada página html..*/
 /*-----------------------------------MAIN INDEX-----------------------------------*/
 .fondo-portfolio-index {
   background-color: #686868; }
-
-.fondo-eventos-index {
-  background-color: #353535; }
 
 .caja-prueba {
   display: grid;
@@ -191,7 +196,6 @@ section {
     padding-left: 2rem; }
 
 .item-horarios {
-  background-color: #272727;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
 
@@ -208,13 +212,6 @@ section {
 
 .desobediente {
   padding: 2rem; }
-
-.fondo-clases {
-  background-image: url(../imagenes/ep_naturalwhite.png);
-  /*=========================================================================
-            This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ 
-            If you need more, that's where to get'em.
-            ======================================================================== */ }
 
 .fondo-funcionamiento {
   background-image: url(/imagenes/funcionamiento.png);
