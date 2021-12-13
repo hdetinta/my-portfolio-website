@@ -108,8 +108,7 @@ section {
   text-transform: uppercase; }
 
 .titulo {
-  margin: 3rem;
-  margin-bottom: 0rem; }
+  margin: 3rem; }
 
 /*---------------------------Imágenes---------------------------*/
 .imagen-filtro:hover {
