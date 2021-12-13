@@ -28,6 +28,10 @@ section {
 .no-margin {
     margin: 0px;
 }
+/*CORRECCION PROBLEMA DE BOOSTRAP, generaba desplazamiento lateral*/
+.row {
+    margin-right: 0rem;
+}
 
     /*---------------------------Texto---------------------------*/
         .texto-blanco {

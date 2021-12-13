@@ -46,6 +46,9 @@ aside {
 .dropdown-menu-dark {
   width: 100%; }
 
+.dropdown-menu .margen-inferior {
+  padding-bottom: 2rem; }
+
 /*-----------------------------------FOOTER-----------------------------------*/
 footer {
   background-color: #353535;
@@ -87,6 +90,10 @@ section {
 
 .no-margin {
   margin: 0px; }
+
+/*CORRECCION PROBLEMA DE BOOSTRAP, generaba desplazamiento lateral*/
+.row {
+  margin-right: 0rem; }
 
 /*---------------------------Texto---------------------------*/
 .texto-blanco {
