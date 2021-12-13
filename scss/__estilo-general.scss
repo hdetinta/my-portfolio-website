@@ -28,9 +28,13 @@ section {
 .no-margin {
     margin: 0px;
 }
-/*CORRECCION PROBLEMA DE BOOSTRAP, generaba desplazamiento lateral*/
+/*CORRECCION PROBLEMAS DE BOOSTRAP, generaba desplazamiento lateral*/
 .row {
     margin-right: 0rem;
+}
+.navbar-expand .navbar-nav .dropdown-menu {
+    left: -57px;
+    position: absolute;
 }
 
     /*---------------------------Texto---------------------------*/
