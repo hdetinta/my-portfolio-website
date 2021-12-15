@@ -275,6 +275,9 @@ textarea {
   border: none;
   width: 100%; }
 
+select {
+  border: none; }
+
 /*-----------------------------------MAIN EVENTOS-----------------------------------*/
 .eventos-slider {
   background-color: grey; }
