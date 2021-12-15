@@ -33,6 +33,9 @@ aside {
     margin-top: 0;
     width: 140px;
     height: 36px; }
+  .aside-lapiz {
+    max-height: 1rem;
+    padding-left: 0.5rem; }
 
 .justify {
   display: flex;
@@ -78,6 +81,8 @@ aside {
       margin-right: 1rem; }
     .footer-logo-izquierda {
       margin-left: 1rem; }
+  .footer-vh {
+    min-height: 25vh; }
 
 /*-----------------------------------GENERAL-----------------------------------*/
 body {
@@ -98,7 +103,8 @@ section {
 .grid-principal {
   display: grid;
   grid-template-columns: 20% auto;
-  grid-template-rows: repeat(auto); }
+  grid-template-rows: repeat(auto);
+  min-height: 75vh; }
 
 .block {
   display: block; }
@@ -252,18 +258,28 @@ section {
   column-gap: 3rem; }
 
 .item-formulario {
-  align-self: center; }
+  align-self: center;
+  border-radius: 10px; }
+  .item-formulario-span {
+    margin-bottom: 0.5rem; }
 
 .divisor {
   margin: 1rem; }
 
+label {
+  width: 100%; }
+
 input {
+  border: none;
   width: 100%;
-  border: none; }
+  padding: 0.5rem; }
 
 textarea {
   border: none;
   width: 100%; }
+
+select {
+  border: none; }
 
 /*-----------------------------------MAIN EVENTOS-----------------------------------*/
 .eventos-slider {
@@ -312,6 +328,10 @@ textarea {
   .menu-horizontal {
     visibility: visible;
     display: block; }
+  .aside-responsive {
+    display: flex;
+    align-content: center;
+    justify-content: space-around; }
   /*____________________MAIN GALERÍA__________________________________*/
   .portfolio-uno {
     display: grid;
@@ -326,6 +346,11 @@ textarea {
 .................................................................................................................*/
 /*_____________Móvil horizontal o menos____________________________*/
 @media (max-width: 599px) {
+  /*____________________ASIDE____________________*/
+  .aside-responsive {
+    display: flex;
+    align-content: center;
+    justify-content: space-around; }
   /*____________________MAIN GALERÍA__________________________________*/
   .portfolio-uno {
     display: grid;

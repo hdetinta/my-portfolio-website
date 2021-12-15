@@ -11,15 +11,26 @@
 }
 .item-formulario {
     align-self: center;
+    border-radius: 10px;
+    &-span {
+        margin-bottom: 0.5rem;
+    }
 }
 .divisor {
     margin: 1rem;
 }
-input {
+label {
     width: 100%;
+}
+input {
     border: none;
+    width: 100%;
+    padding: 0.5rem;
 }
 textarea {
     border: none;
     width: 100%;
+}
+select {
+    border: none;
 }

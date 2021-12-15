@@ -27,8 +27,8 @@
             <nav>
                 <a class="aside  horizontal" href="index.html"><img class="aside-logo" src="imagenes/logoblanco.png" alt="logo Helena Machado"></a>
                 <ul class="justify">
-                    <li><a class="aside horizontal" href="portfolio.html">Portfolio</li>
-                    <li><a class="aside horizontal" href="contacto.html">Contacto</a></li>
+                    <li><a class="aside horizontal" href="portfolio.html">Galería</li>
+                    <li><a class="aside horizontal" href="contacto.html"><img  class="aside-lapiz" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis"> Contacto<img class="aside-lapiz" src="./imagenes/lapiz.png" alt="lápiz"></a></li>
                     <li><a class="aside horizontal" href="eventos.html">Eventos</a></li>
                     <li><a class="aside horizontal" href="clases.html">Clases</a></li>
                     <li><a class="aside horizontal" href="sobremi.html">Sobre mí</a></li>
@@ -47,8 +47,8 @@
                                 <span class="fijo">Menú</span>
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark bg-black" aria-labelledby="navbarDarkDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="portfolio.html">Portfolio</a></li>
-                                    <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+                                    <li><a class="dropdown-item" href="portfolio.html">Galería</a></li>
+                                    <li><a class="dropdown-item aside-responsive" href="contacto.html"><img  class="aside-lapiz" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis">Contacto<img class="aside-lapiz" src="./imagenes/enfasiscierra.png" alt="lápiz"></a></li>
                                     <li><a class="dropdown-item" href="eventos.html">Eventos</a></li>
                                     <li><a class="dropdown-item" href="clases.html">Clases</a></li>
                                     <li><a class="dropdown-item" href="sobremi.html">Sobre mí</a></li>
@@ -61,37 +61,44 @@
         </div>
     </aside>
         <!----------------------------------------------Main-------------------------------------------------------------->
-        <main class="texto-resaltado">
+        <main class="">
             <!--_____________Sección contacto_____________-->
             <section class="row no-margin">
                 <div class="col-xl">
                     <img class="imagen-prueba" src="./imagenes/contacto.jpg" alt="autoretrato Helena Machado saludando">
-                    <p>Para enviarme un mensaje puedes cubrir el formulario o escribirme desde tu e-mail a <a>contacto@helenamachado.art</a></p>
+                    <p>Para enviarme un mensaje puedes <span class="texto-marron texto-resaltado">cubrir el formulario</span>,  o escribirme desde tu e-mail a <a class="texto-resaltado">contacto@helenamachado.art</a></p>
                     <p class="datos">Protección de datos</p>
                 </div>
-                <div class="item-formulario col-xl fondo-papel">
+                <div class="item-formulario col-xl fondo-papel texto-resaltado">
                     <form action="" method="POST" enctype="">
                         <div class="divisor">
                             <label for="name">
-                                <span class="textoresaltado block">Nombre</span>
+                                <span class="textoresaltado block item-formulario-span texto-marron">Nombre</span>
                                 <input type="text" name="nombre" id="name" placeholder="Su nombre aquí" autocomplete="name">
                             </label>
                         </div>
                         <div class="divisor">
                             <label for="pronombres">
-                                <span class="textoresaltado block">Tus pronombres</span>
+                                <span class="textoresaltado block  item-formulario-span texto-marron">Tus pronombres</span>
                                 <input type="text" name="pronombres" id="pronombres" placeholder="(Él/Ella/Elle u otros)">
                             </label>
                         </div>
                         <div class="divisor">
                             <label for="email">
-                                <span class="textoresaltado block">Correo electrónico</span>
+                                <span class="textoresaltado block item-formulario-span texto-marron">Correo electrónico</span>
                                 <input type="email" name="correo" id="email" placeholder="ejemplo@gmail.com" autocomplete="email">
                             </label>
                         </div>  
                         <div class="divisor">
+                            <label for="asunto">
+                                <span class="textoresaltado block item-formulario-span texto-marron">Asunto</span>
+                                <input type="text" name="text" id="asunto" placeholder="¡Por trabajo, apuntarme a las clases u otro!">
+                            </label>
+                            
+                        </div> 
+                        <div class="divisor">
                             <label for="Mensaje">
-                                <span class="textoresaltado block">Mensaje</span>
+                                <span class="textoresaltado block item-formulario-span texto-marron">Mensaje</span>
                                 <textarea cols="40" rows="10"></textarea>
                             </label>
                         </div> 

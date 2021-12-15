@@ -20,8 +20,9 @@ section {
 .grid-principal {
     display: grid;
     grid-template-columns: 20% auto;
-    grid-template-rows: repeat(auto) 
-    }
+    grid-template-rows: repeat(auto);
+    min-height: 75vh;
+}
 .block {
     display: block;
 }

@@ -3,6 +3,12 @@
     /*_____________Móvil horizontal o menos____________________________*/
     @media (max-width:599px)
     {
+        /*____________________ASIDE____________________*/
+        .aside-responsive {
+            display: flex;
+            align-content: center;
+            justify-content: space-around;
+        }
         /*____________________MAIN GALERÍA__________________________________*/
         .portfolio-uno {
             display: grid;
