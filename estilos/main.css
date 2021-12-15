@@ -59,7 +59,7 @@ aside {
 
 /*-----------------------------------FOOTER-----------------------------------*/
 footer {
-  background-color: #9c9d9f;
+  background-color: #93735e;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -114,6 +114,9 @@ section {
 /*---------------------------Texto---------------------------*/
 .texto-blanco {
   color: white; }
+
+.texto-marron {
+  color: #81524c; }
 
 .texto-resaltado {
   font-weight: bold; }
