@@ -241,6 +241,9 @@ section {
 .divisor {
   margin: 1rem; }
 
+input {
+  width: 320.67px; }
+
 /*-----------------------------------MAIN EVENTOS-----------------------------------*/
 .eventos-slider {
   background-color: grey; }
