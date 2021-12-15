@@ -78,6 +78,8 @@ aside {
       margin-right: 1rem; }
     .footer-logo-izquierda {
       margin-left: 1rem; }
+  .footer-vh {
+    min-height: 25vh; }
 
 /*-----------------------------------GENERAL-----------------------------------*/
 body {
@@ -98,7 +100,11 @@ section {
 .grid-principal {
   display: grid;
   grid-template-columns: 20% auto;
-  grid-template-rows: repeat(auto); }
+  grid-template-rows: repeat(auto);
+  min-height: 75vh; }
+
+.prueba-vh {
+  min-height: 25vh; }
 
 .block {
   display: block; }
