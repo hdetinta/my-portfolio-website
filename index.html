@@ -32,7 +32,7 @@
                         <li><a class="aside horizontal" href="contacto.html">Contacto</a></li>
                         <li><a class="aside horizontal" href="eventos.html">Eventos</a></li>
                         <li><a class="aside horizontal" href="clases.html">Clases</a></li>
-                        <li><a class="aside horizontal" href="sobremi.html">Sobre mí</a></li>
+                        <li><a class="aside horizontal margen-inferior" href="sobremi.html">Sobre mí</a></li>
                     </ul>
                 </nav>
             </div>
@@ -64,30 +64,38 @@
         <!----------------------------------------------MAIN-------------------------------------------------------------->
         <main class="">
                 <!--_____________Sección portada_____________-->
-            <section>
-                <div id="carouselExampleControls" class="carousel slide container col-md-7" data-bs-ride="carousel">
-                    <div class="carousel-inner col-6 ">
-                        <div class="carousel-item active">
-                            <img src="./imagenes/carousel/casatrolls.jpg" class="d-block w-100" alt="una cabaña en el bosque">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./imagenes/carousel/galletas.jpg" class="d-block w-100" alt="padre e hijo hacen galletas">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./imagenes/carousel/basket.jpg" class="d-block w-100" alt="chicas jugando al baloncesto">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./imagenes/carousel/isabel.jpg" class="d-block w-100" alt="retrato de Isabel II">
+            <section class="fondo-papel">
+                <div class="row">
+                    <h1 class="wow bounceInLeft titulo texto-resaltado">¡Hola, esta es mi web, disfruta la visita!</h1>
+                    <div class="col-xl-6">
+                        <img class="imagen-prueba" src="./imagenes/PORTADA.png" alt="mujer de pie con pinceles en la mano">
+                    </div>
+                    <div class="col-xl-6 align-self-center">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner col-6 ">
+                                <div class="carousel-item active">
+                                    <img src="./imagenes/carousel/casatrolls.jpg" class="d-block w-100" alt="una cabaña en el bosque">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./imagenes/carousel/galletas.jpg" class="d-block w-100" alt="padre e hijo hacen galletas">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./imagenes/carousel/basket.jpg" class="d-block w-100" alt="chicas jugando al baloncesto">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./imagenes/carousel/isabel.jpg" class="d-block w-100" alt="retrato de Isabel II">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </section>
                 <!--_____________Sección portfolio_____________-->
@@ -97,10 +105,10 @@
                         <img class="imagen-prueba" src="./imagenes/maquetapdf.jpg" alt="portada portfolio">
                     </div>
                     <div class="col-xl">
-                        <article class=" texto-centrado">
-                            <h1 class="wow bounceInRight">Portfolio</h1>
+                        <article class=" texto-derecha">
+                            <h2 class="wow bounceInRight titulo">Portfolio</h2>
                                 <p>Puedes seguir viendo mi portfolio <a class=todo-mayus href="portfolio.html">aquí</a> o descargarlo haciendo click.</p>
-                                <a class="descargar" href="">Descargar PDF</a>
+                                <a class="descargar boton texto-blanco" href="">Descargar PDF</a>
                         </article>
                     </div>
                 </div>
@@ -109,27 +117,28 @@
             <section>
                 <div class="row">
                     <div class="col-xl">
-                        <h2 class="wow bounceInLeft">¡Escríbeme!</h2>
-                            <p>¿Tienes una propuesta? ¿Quieres que trabajemos juntos? ¡No dudes en escribirme! Puedes hacerlo desde <a href="contacto.html">aquí</a> o escribirme a <a>contacto@helenamachado.art</a><!--Pop up al mail--></p>
+                        <h2 class="wow bounceInLeft titulo texto-rosa">¡Escríbeme!</h2>
+                            <p>¿Tienes una propuesta? ¿Quieres que trabajemos juntos?<span class="texto-resaltado"> ¡No dudes en escribirme!</span> Puedes hacerlo desde <a class="texto-resaltado" href="contacto.html">aquí</a> o escribirme a <a ><!--Pop up al mail-->contacto@helenamachado.art</a></p>
+                            <p>Si no lo tienes claro te invito a que sigas explorando, hay mucho que ver.</p>
                     </div>
                     <div class="col-xl">
-                        <img src="" alt="ilustracion de contacto">
+                        <img class="imagen-prueba" src="./imagenes/contacto.png" alt="ilustracion de contacto">
                     </div>
                 </div>
             </section>
                 <!--_____________Sección eventos_____________-->
-            <section class="fondo-oscuro">
+            <section class="fondo-papel">
                 <div class="row">
                     <div class="col-xl">
-                        <img class="imagen-prueba" src="./imagenes/lectura.jpg" alt="ilustracion niño leyendo sentado en el suelo">
+                        <img class="imagen-prueba" src="./imagenes/EVENTOS.png" alt="ilustracion niño leyendo sentado en el suelo">
                     </div>
                     <div class="col-xl">
-                        <h2 class="texto-derecha texto-blanco wow bounceInRight">Presentaciones, firmas y talleres</h2>
-                            <h3 class="texto-blanco">Próximamente</h3>
-                                <p class="texto-blanco"><span>06 Noviembre - Ciudad</span> <span class="texto-pequeño">Taller de dibujo infantil. <a>Más información</a></span></p>
-                                <p class="texto-blanco"><span>06 Noviembre - Ciudad</span> <span class="texto-pequeño">Taller de dibujo infantil. <a>Más información</a></span></p>
-                            <h3 class="texto-blanco">Eventos anteriores</h3>
-                                <p class="texto-blanco"><span>06 Noviembre - Ciudad</span> <span class="texto-pequeño">Taller de dibujo infantil. <a>Más información</a></span></p>
+                        <h2 class="texto-derecha wow bounceInRight titulo">Presentaciones, firmas y talleres</h2>
+                            <h3>Próximamente</h3>
+                                <p><span>06 Noviembre - Ciudad</span> <span class="texto-pequeño">Taller de dibujo infantil. <a>Más información</a></span></p>
+                                <p><span>06 Noviembre - Ciudad</span> <span class="texto-pequeño">Taller de dibujo infantil. <a>Más información</a></span></p>
+                            <h3>Eventos anteriores</h3>
+                                <p><span>06 Noviembre - Ciudad</span> <span class="texto-pequeño">Taller de dibujo infantil. <a>Más información</a></span></p>
                     </div>
                 </div>
             </section>
@@ -137,53 +146,39 @@
             <section>
                 <div class="row">
                     <div class="col-xl">
-                        <h2 class="wow bounceInLeft">Clases de dibujo e ilustración</h2>
-                        <p class="texto-izquierda">¿Prefieres hacerlo tú mismo? Puedes aprender apuntándote a mis clases de dibujo e ilustración. Tienes toda la información <a href="clases.html">aquí</a></p>
+                        <h2 class="wow bounceInLeft titulo texto-marron">Clases de dibujo e ilustración</h2>
+                        <p class="texto-izquierda">¿Prefieres hacerlo tú mismo?<span class="texto-resaltado texto-marron"> Puedes aprender apuntándote a mis clases</span>  de dibujo e ilustración.</p>
+                        <p>Tienes toda la información <a class="texto-resaltado" href="clases.html">en esta sección.</a></p>
                     </div>
-                    <div class="col-xl fondo-ilus">
+                    <div class="col-xl">
+                        <img class="imagen-prueba" src="./imagenes/CLASES.png" alt="Silla y mesa de dibujo">
                     </div>  
-                    
                 </div>
             </section>
         </main>
     </div>
     <!----------------------------------------------FOOTER-------------------------------------------------------------->
-    <footer >
-        
-            <div class="">
-                <p>Horario:</p>
-                <p>Martes, miércoles, jueves y viernes 16:30 - 19:45</p>
-                <p>Sábados 10:30 - 13:45</p>
+    <footer class="texto-blanco footer">
+        <div class="row">
+            <h4>¡Estemos en contacto!</h4>
+            <div class="footer-redes">
+                    <img class="footer-logo" src="./imagenes/enfasisabre.png" alt="">
+                    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/"><img class="footer-logo" src="./imagenes/instagram_logo_blanco.png" alt="instagram logo"></a>
+                    <img class="footer-logo footer-logo-derecha" src="./imagenes/enfasiscierra.png" alt="">
+
+                    <img class="footer-logo footer-logo-izquierda" src="./imagenes/enfasisabre.png" alt="">
+                    <a class="nav-link" href="https://www.github.com/"><img class="footer-logo" src="./imagenes/GitHub-Mark-Light-64px.png" alt="githublogo"></a>
+                    <img class="footer-logo" src="./imagenes/enfasiscierra.png" alt="">
+
+                    <img class="footer-logo footer-logo-izquierda" src="./imagenes/enfasisabre.png" alt="">
+                    <a class="nav-link" href="contacto.html"><img class="footer-logo" src="./imagenes/mail.png" alt="icono de sobre"></a>
+                    <img class="footer-logo" src="./imagenes/enfasiscierra.png" alt="">
             </div>
-            <div class=" align-self-center justify-content-center">
-                <ul>
-                    <li><a class="texto-blanco" href="contact.html">Contacto</a></li>
-                    <li><a class="texto-blanco" url="">Aviso legal</a></li>
-                    <li><a class="texto-blanco" url="">Política de cookies</a></li>
-                </ul>
-                <div class="">
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="https://www.instagram.com/"><img class="icon" src="./imagenes/instagram.png" alt="instagram logo"></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.behance.com/"><img class="icon" src="./imagenes/behance.png" alt="behance logo"></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.github.com/"><img class="icon" src="./imagenes/GitHub-Mark-120px-plus.png" alt="githublogo"></a>
-                        </li>
-                    </ul>
-                </div> 
-            </div>
-            <div class="">
-                <img  class="imagen-prueba" src="./imagenes/footer.jpg" alt="dos botes con material de dibujo">
-                <div>
-                    <p class="fst-italic copyright">Derechos Reservados Copyright</p>
-                </div>
-            </div>
+        </div>
+        <div class="row">
+            <p class=""><img id="copyright" class="footer-log" src="./imagenes/copyright.png" alt="logo c copyright"> Web Design by Helena Machado | Copyright Helena Machado</p>
             
-        
-        
+        </div>
     </footer>
     <!--..............SCRIPTS..............-->
         <!--Wowjs.uk-->

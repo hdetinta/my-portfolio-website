@@ -1,16 +1,28 @@
 /*-----------------------------------FOOTER-----------------------------------*/
-footer {
-    background-color: rgb(53, 53, 53);
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    padding: 1rem;
-}
-    
-.copyright {
-    font-style: italic;
-    font-weight: none;
-    font-size: 60%;
-    text-align: center;
+
+#copyright {
+    width: 1.5rem;
+    height: 1.5rem;
     }
+
+.footer {
+    background-color: rgb(147, 115, 94);
+    padding: 2rem;
+    text-align: center;
+        &-redes {
+            display: flex;
+            justify-content: center;
+            margin: 2rem;
+            margin-top: 1rem;
+        }
+        &-logo {
+            width: 2rem;
+            margin: 0;
+                &-derecha {
+                    margin-right: 1rem;
+                }
+                &-izquierda {
+                    margin-left: 1rem;
+                }
+        }
+}
