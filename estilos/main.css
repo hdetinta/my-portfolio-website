@@ -58,18 +58,26 @@ aside {
   padding-bottom: 2rem; }
 
 /*-----------------------------------FOOTER-----------------------------------*/
-footer {
-  background-color: #93735e;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  padding: 1rem; }
+#copyright {
+  width: 1.5rem;
+  height: 1.5rem; }
 
-.copyright {
-  font-style: italic;
-  font-weight: none;
-  font-size: 60%;
+.footer {
+  background-color: #93735e;
+  padding: 2rem;
   text-align: center; }
+  .footer-redes {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    margin-top: 1rem; }
+  .footer-logo {
+    width: 2rem;
+    margin: 0; }
+    .footer-logo-derecha {
+      margin-right: 1rem; }
+    .footer-logo-izquierda {
+      margin-left: 1rem; }
 
 /*-----------------------------------GENERAL-----------------------------------*/
 body {
