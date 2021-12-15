@@ -16,5 +16,15 @@
     margin: 1rem;
 }
 input {
-    width: 320.67px;
+    width: 100%;
+    border: none;
+}
+textarea {
+    border: none;
+    width: 100%;
+}
+.boton {
+    background-color:rgb(53, 53, 53);
+    border-radius: 10px;
+    padding: 0.375rem 0.75rem;
 }

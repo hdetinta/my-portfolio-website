@@ -68,7 +68,7 @@ footer {
 body {
   font-family: 'Josefin Sans', sans-serif;
   margin: 0rem;
-  font-size: 0,875rem; }
+  font-size: 1rem; }
 
 a {
   text-decoration: none;
@@ -242,7 +242,17 @@ section {
   margin: 1rem; }
 
 input {
-  width: 320.67px; }
+  width: 100%;
+  border: none; }
+
+textarea {
+  border: none;
+  width: 100%; }
+
+.boton {
+  background-color: #353535;
+  border-radius: 10px;
+  padding: 0.375rem 0.75rem; }
 
 /*-----------------------------------MAIN EVENTOS-----------------------------------*/
 .eventos-slider {
