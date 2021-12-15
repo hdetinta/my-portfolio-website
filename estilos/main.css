@@ -59,8 +59,7 @@ aside {
 
 /*-----------------------------------FOOTER-----------------------------------*/
 footer {
-  background-color: #353535;
-  color: white;
+  background-color: #9c9d9f;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -98,6 +97,11 @@ section {
 
 .no-margin {
   margin: 0px; }
+
+.boton {
+  background-color: #93735e;
+  border-radius: 10px;
+  padding: 0.375rem 0.75rem; }
 
 /*CORRECCION PROBLEMAS DE BOOSTRAP, generaba desplazamiento lateral*/
 .row {
@@ -155,20 +159,13 @@ section {
 .icon {
   max-width: 25px; }
 
-/*Fondos*/
+/*------Fondos------------------*/
 .fondo-papel {
   background-image: url(../imagenes/ep_naturalwhite.png);
   /*=========================================================================
                     This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ 
                     If you need more, that's where to get'em.
                     ======================================================================== */ }
-
-.fondo-oscuro {
-  background-color: #353535; }
-
-.fondo-ilus {
-  background-image: url(../imagenes/fondo4.jpg);
-  height: 400px; }
 
 /*..Estilos específicos de cada página html..*/
 /*-----------------------------------MAIN INDEX-----------------------------------*/
@@ -256,11 +253,6 @@ input {
 textarea {
   border: none;
   width: 100%; }
-
-.boton {
-  background-color: #93735e;
-  border-radius: 10px;
-  padding: 0.375rem 0.75rem; }
 
 /*-----------------------------------MAIN EVENTOS-----------------------------------*/
 .eventos-slider {

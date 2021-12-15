@@ -28,6 +28,11 @@ section {
 .no-margin {
     margin: 0px;
 }
+.boton {
+    background-color:rgb(147, 115, 94);
+    border-radius: 10px;
+    padding: 0.375rem 0.75rem;
+}
 /*CORRECCION PROBLEMAS DE BOOSTRAP, generaba desplazamiento lateral*/
 .row {
     margin-right: 0rem;
@@ -87,18 +92,11 @@ section {
         .icon {
             max-width: 25px;
         }
-        /*Fondos*/
+    /*------Fondos------------------*/
         .fondo-papel {
             background-image:url(../imagenes/ep_naturalwhite.png);
                     /*=========================================================================
                     This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ 
                     If you need more, that's where to get'em.
                     ======================================================================== */
-        }
-        .fondo-oscuro {
-            background-color: rgb(53, 53, 53);
-        }
-        .fondo-ilus {
-            background-image: url(../imagenes/fondo4.jpg);
-            height: 400px;
         }
