@@ -44,30 +44,42 @@ section {
 }
 
     /*---------------------------Texto---------------------------*/
-        .texto-blanco {
-            color: white;
+        .texto {
+            &-blanco {
+                color: white;
+            }
+            &-marron {
+                color: rgb(129, 82, 76);
+            }
+            &-resaltado {
+                font-weight: bold;
+            }
+            &-pequeño {
+                font-size: 80%;
+            }
+            &-centrado {
+                text-align: center;
+            }
+            &-derecha {
+                text-align: right;
+            }
+            &-mayus {
+                text-transform: uppercase;
+            }
         }
-        .texto-marron {
+
+        .destacado {
             color: rgb(129, 82, 76);
-        }
-        .texto-resaltado {
             font-weight: bold;
-        }
-        .texto-pequeño {
-            font-size: 80%;
-        }
-        .texto-centrado {
-            text-align: center;
-        }
-        .texto-derecha {
-            text-align: right;
-        }
-        .todo-mayus {
-            text-transform: uppercase;
         }
         .titulo {
             margin: 3rem;
-            
+            color: rgb(129, 82, 76);
+            font-weight: bold;
+                &-h2 {
+                    font-weight: normal;
+                    margin: 2rem;
+                }
         }
 
     /*---------------------------Imágenes---------------------------*/

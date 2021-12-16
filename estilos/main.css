@@ -143,11 +143,20 @@ section {
 .texto-derecha {
   text-align: right; }
 
-.todo-mayus {
+.texto-mayus {
   text-transform: uppercase; }
 
+.destacado {
+  color: #81524c;
+  font-weight: bold; }
+
 .titulo {
-  margin: 3rem; }
+  margin: 3rem;
+  color: #81524c;
+  font-weight: bold; }
+  .titulo-h2 {
+    font-weight: normal;
+    margin: 2rem; }
 
 /*---------------------------Imágenes---------------------------*/
 .imagen-filtro:hover {
