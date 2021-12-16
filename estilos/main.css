@@ -156,9 +156,7 @@ section {
 
 .imagen-filtro {
   width: 100%;
-  height: 80vh;
-  object-fit: contain;
-  margin-bottom: 2rem; }
+  object-fit: contain; }
 
 .imagen-prueba {
   max-width: 100%;
@@ -290,7 +288,7 @@ select {
   max-height: 350px; }
 
 /*-----------------------------------MAIN GALERÍA-----------------------------------*/
-.portfolio-uno {
+.galeria {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(6);
@@ -333,7 +331,7 @@ select {
     align-content: center;
     justify-content: space-around; }
   /*____________________MAIN GALERÍA__________________________________*/
-  .portfolio-uno {
+  .galeria {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(9);
@@ -352,7 +350,7 @@ select {
     align-content: center;
     justify-content: space-around; }
   /*____________________MAIN GALERÍA__________________________________*/
-  .portfolio-uno {
+  .galeria {
     display: grid;
     grid-template-columns: 1fr; }
   section {
