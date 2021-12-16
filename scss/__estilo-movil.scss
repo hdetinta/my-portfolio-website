@@ -2,23 +2,84 @@
 .................................................................................................................*/
     /*_____________Móvil horizontal o menos____________________________*/
     @media (max-width:599px)
-    {
+    {/* INDICE:
+            1. Aside
+            2. Footer
+            3. Main
+                3.1 Main Galería
+                3.2 Main Clases
+                3.3 Main Sobre mí
+        */
         /*____________________ASIDE____________________*/
         .aside-responsive {
             display: flex;
             align-content: center;
             justify-content: space-around;
         }
+        /*____________________FOOTER____________________*/
+        .footer {
+            background-color: rgb(147, 115, 94);
+            padding: 2rem;
+            
+                &-redes {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: 1fr 1fr 1fr;
+                    margin: 2rem;
+                    margin-top: 1rem;
+                }
+                &-logo {
+                    width: 2rem;
+                    margin: 0;
+                    margin-bottom: 1rem;
+                    align-items: center;
+                        &-derecha {
+                            margin-right: 0rem;
+                            justify-self: flex-start;
+                        }
+                        &-izquierda {
+                            margin-left: 0rem;
+                            justify-self: flex-end;
+                        }
+                }
+                &-vh {
+                    min-height: 25vh;
+                }
+        }
+        /*____________________MAIN__________________________________*/
+        section {
+            margin: 0rem;
+            padding: 2rem;
+        }
+        .texto-centrado-movil {
+            text-align: center;
+        }
         /*____________________MAIN GALERÍA__________________________________*/
-        .portfolio-uno {
+        .galeria {
             display: grid;
             grid-template-columns: 1fr;
         }
-
-        section {
-            padding: 0.5rem;
-            
-            margin-top: 3rem;
-            margin-bottom: 3rem;
+        /*____________________MAIN SOBRE MI__________________________________*/
+        .sobremi{
+            display: grid;
+            grid-template-rows: 20rem 1fr;
+            grid-template-columns: 1fr;
+                &-imagen {
+                    max-height: 20rem;
+                }
+        }
+        /*____________________MAIN CONTACTO__________________________________*/
+        .asunto {
+            display: none;
+                &-movil {
+                    display: block; /*PEndiente corregir el margen*/ 
+                }
+        }
+        .contacto-movil {
+            padding: 1rem;
+            margin-bottom: 2rem;
+                &-extra {
+                    padding: 2rem;
+                }
         }
 }
