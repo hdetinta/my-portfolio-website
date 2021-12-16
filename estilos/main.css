@@ -342,6 +342,8 @@ select {
     justify-content: space-around; }
   /*____________________2. FOOTER__________________________________*/
   /*____________________3. MAIN__________________________________*/
+  .titulo {
+    margin: 2rem; }
   /*____________________3.1 MAIN GALERÍA__________________________________*/
   .galeria {
     display: grid;
@@ -356,6 +358,8 @@ select {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr; }
+    .sobremi div {
+      justify-self: center; }
     .sobremi-imagen {
       max-height: 30rem; } }
 
@@ -403,6 +407,8 @@ select {
   section {
     margin: 0rem;
     padding: 2rem; }
+  .texto-centrado-movil {
+    text-align: center; }
   /*____________________MAIN GALERÍA__________________________________*/
   .galeria {
     display: grid;
@@ -410,7 +416,7 @@ select {
   /*____________________MAIN SOBRE MI__________________________________*/
   .sobremi {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 20rem 1fr;
     grid-template-columns: 1fr; }
     .sobremi-imagen {
       max-height: 20rem; }

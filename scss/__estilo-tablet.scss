@@ -50,6 +50,9 @@
 
             /*____________________3. MAIN__________________________________*/
             
+            .titulo {
+                margin: 2rem;
+            }
 
                 /*____________________3.1 MAIN GALERÍA__________________________________*/
                 .galeria {
@@ -68,6 +71,9 @@
                     display: grid;
                     grid-template-rows: 1fr 1fr;
                     grid-template-columns: 1fr;
+                        & div {
+                            justify-self: center;
+                        }
                         &-imagen {
                             max-height: 30rem;
                         }

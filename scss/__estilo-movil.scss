@@ -51,6 +51,9 @@
             margin: 0rem;
             padding: 2rem;
         }
+        .texto-centrado-movil {
+            text-align: center;
+        }
         /*____________________MAIN GALERÍA__________________________________*/
         .galeria {
             display: grid;
@@ -59,7 +62,7 @@
         /*____________________MAIN SOBRE MI__________________________________*/
         .sobremi{
             display: grid;
-            grid-template-rows: 1fr 1fr;
+            grid-template-rows: 20rem 1fr;
             grid-template-columns: 1fr;
                 &-imagen {
                     max-height: 20rem;
