@@ -64,10 +64,6 @@ aside {
   padding-bottom: 2rem; }
 
 /*-----------------------------------FOOTER-----------------------------------*/
-#copyright {
-  width: 1.5rem;
-  height: 1.5rem; }
-
 .footer {
   background-color: #93735e;
   padding: 2rem;
@@ -302,7 +298,15 @@ select {
 .................................................................................................................*/
 /*_____________Tablet vertical o menos____________________________*/
 @media (max-width: 1023px) {
-  /*____________________HEADER/ASIDE__________________________________*/
+  /* INDICE:
+            1. Aside
+            2. Footer
+            3. Main
+                3.1 Main Galería
+                3.2 Main Clases
+                3.3 Main Sobre mí
+        */
+  /*____________________1. ASIDE__________________________________*/
   aside {
     max-height: 70px;
     position: sticky;
@@ -322,10 +326,6 @@ select {
     max-width: 200px; }
   .horizontal {
     display: inline; }
-  /* .fijo {
-                    
-                    Corregir que el dropdown no rompa la estructura
-                } */
   .menu-horizontal {
     visibility: visible;
     display: block; }
@@ -333,7 +333,9 @@ select {
     display: flex;
     align-content: center;
     justify-content: space-around; }
-  /*____________________MAIN GALERÍA__________________________________*/
+  /*____________________2. FOOTER__________________________________*/
+  /*____________________3. MAIN__________________________________*/
+  /*____________________3.1 MAIN GALERÍA__________________________________*/
   .galeria {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -341,17 +343,49 @@ select {
     column-gap: 1rem; }
   /*____________________MAIN CLASES__________________________________*/
   .item-horarios {
-    background-color: #272727; } }
+    background-color: #272727; }
+  /*____________________MAIN SOBRE MI__________________________________*/ }
 
 /*...............................................................................................................
 .................................................................................................................*/
 /*_____________Móvil horizontal o menos____________________________*/
 @media (max-width: 599px) {
+  /* INDICE:
+            1. Aside
+            2. Footer
+            3. Main
+                3.1 Main Galería
+                3.2 Main Clases
+                3.3 Main Sobre mí
+        */
   /*____________________ASIDE____________________*/
   .aside-responsive {
     display: flex;
     align-content: center;
     justify-content: space-around; }
+  /*____________________FOOTER____________________*/
+  .footer {
+    background-color: #93735e;
+    padding: 2rem; }
+    .footer-redes {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      margin: 2rem;
+      margin-top: 1rem; }
+    .footer-logo {
+      width: 2rem;
+      margin: 0;
+      margin-bottom: 1rem;
+      align-items: center; }
+      .footer-logo-derecha {
+        margin-right: 0rem;
+        justify-self: flex-start; }
+      .footer-logo-izquierda {
+        margin-left: 0rem;
+        justify-self: flex-end; }
+    .footer-vh {
+      min-height: 25vh; }
   /*____________________MAIN GALERÍA__________________________________*/
   .galeria {
     display: grid;
