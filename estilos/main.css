@@ -421,7 +421,8 @@ select {
       display: block;
       /*PEndiente corregir el margen*/ }
   .contacto-movil {
-    padding: 1rem; }
+    padding: 1rem;
+    margin-bottom: 2rem; }
     .contacto-movil-extra {
       padding: 2rem; } }
 
