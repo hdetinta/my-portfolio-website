@@ -46,17 +46,36 @@
                     min-height: 25vh;
                 }
         }
-        
+        /*____________________MAIN__________________________________*/
+        section {
+            margin: 0rem;
+            padding: 2rem;
+        }
         /*____________________MAIN GALERÍA__________________________________*/
         .galeria {
             display: grid;
             grid-template-columns: 1fr;
         }
-
-        section {
-            padding: 0.5rem;
-            
-            margin-top: 3rem;
-            margin-bottom: 3rem;
+        /*____________________MAIN SOBRE MI__________________________________*/
+        .sobremi{
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr;
+                &-imagen {
+                    max-height: 20rem;
+                }
+        }
+        /*____________________MAIN CONTACTO__________________________________*/
+        .asunto {
+            display: none;
+                &-movil {
+                    display: block; /*PEndiente corregir el margen*/ 
+                }
+        }
+        .contacto-movil {
+            padding: 1rem;
+            &-extra {
+                padding: 2rem;
+            }
         }
 }

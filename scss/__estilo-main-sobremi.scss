@@ -1,4 +1,9 @@
 /*-----------------------------------MAIN SOBRE MÍ-----------------------------------*/
-.sobremi-imagen {
-    max-height: 350px;
+.sobremi{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    &-imagen {
+        max-height: 30rem;
+    }
 }

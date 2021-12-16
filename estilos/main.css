@@ -278,13 +278,20 @@ textarea {
 select {
   border: none; }
 
+.asunto-movil {
+  display: none; }
+
 /*-----------------------------------MAIN EVENTOS-----------------------------------*/
 .eventos-slider {
   background-color: grey; }
 
 /*-----------------------------------MAIN SOBRE MÍ-----------------------------------*/
-.sobremi-imagen {
-  max-height: 350px; }
+.sobremi {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr; }
+  .sobremi-imagen {
+    max-height: 30rem; }
 
 /*-----------------------------------MAIN GALERÍA-----------------------------------*/
 .galeria {
@@ -344,7 +351,13 @@ select {
   /*____________________MAIN CLASES__________________________________*/
   .item-horarios {
     background-color: #272727; }
-  /*____________________MAIN SOBRE MI__________________________________*/ }
+  /*____________________MAIN SOBRE MI__________________________________*/
+  .sobremi {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr; }
+    .sobremi-imagen {
+      max-height: 30rem; } }
 
 /*...............................................................................................................
 .................................................................................................................*/
@@ -386,14 +399,31 @@ select {
         justify-self: flex-end; }
     .footer-vh {
       min-height: 25vh; }
+  /*____________________MAIN__________________________________*/
+  section {
+    margin: 0rem;
+    padding: 2rem; }
   /*____________________MAIN GALERÍA__________________________________*/
   .galeria {
     display: grid;
     grid-template-columns: 1fr; }
-  section {
-    padding: 0.5rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem; } }
+  /*____________________MAIN SOBRE MI__________________________________*/
+  .sobremi {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr; }
+    .sobremi-imagen {
+      max-height: 20rem; }
+  /*____________________MAIN CONTACTO__________________________________*/
+  .asunto {
+    display: none; }
+    .asunto-movil {
+      display: block;
+      /*PEndiente corregir el margen*/ }
+  .contacto-movil {
+    padding: 1rem; }
+    .contacto-movil-extra {
+      padding: 2rem; } }
 
 /*--Referencias--*/
 /*
