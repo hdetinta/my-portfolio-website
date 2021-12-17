@@ -339,6 +339,10 @@ select {
   border-radius: 10px;
   padding: 0.375rem 0.75rem; }
 
+.check {
+  width: 1.5rem;
+  height: 1.5rem; }
+
 /*-----------------------------------MAIN EVENTOS-----------------------------------*/
 .eventos-slider {
   background-color: grey; }
