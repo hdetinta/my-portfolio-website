@@ -20,7 +20,9 @@
     <link rel="stylesheet" href="./estilos/main.css">
 </head>
 <body>
+    <div class="suelo"></div>
     <div class="grid-principal">
+        
         <!----------------------------------------------ASIDE-------------------------------------------------------------->
         <aside>
             <!--Pantallas grandes--------------------------------------------------------------------->
@@ -63,15 +65,16 @@
         </aside>
         <!----------------------------------------------MAIN-------------------------------------------------------------->
         <main class="">
+            
                 <!--_____________Sección portada_____________-->
-            <section class="fondo-papel">
-                <div class="row">
-                    <h1 class="wow bounceInLeft titulo">¡Hola, esta es mi web, disfruta la visita!</h1>
-                    <div class="col-xl-6">
-                        <img class="imagen-prueba" src="./imagenes/PORTADA.png" alt="mujer de pie con pinceles en la mano">
+            <section class="portada fondo-papel">
+                
+                <div class="caja">
+                    <div class="">
+                        <img class="imagen-prueba portada-ilus" src="./imagenes/PORTADA.png" alt="mujer de pie con pinceles en la mano">
                     </div>
-                    <div class="col-xl-6 align-self-center">
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carrusel">
+                        <div id="carouselExampleControls carrusel-desborde" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner col-6 ">
                                 <div class="carousel-item active">
                                     <img src="./imagenes/carousel/casatrolls.jpg" class="d-block w-100" alt="una cabaña en el bosque">
@@ -97,24 +100,28 @@
                         </div>
                     </div>
                 </div>
+                
             </section>
                 <!--_____________Sección portfolio_____________-->
-            <section class="fondo-papel">
+            <section class="index-portfolio fondo-papel">
                 <div class="row">
-                    <div class="col-xl">
+                    <div class="col-xl-5">
                         <img class="imagen-prueba" src="./imagenes/maquetapdf.jpg" alt="portada portfolio">
+                        <a class="descargar boton texto-blanco" href="">Descargar PDF</a>
                     </div>
-                    <div class="col-xl">
+                    <div class="col-xl-7">
                         <article class=" texto-derecha">
-                            <h2 class="wow bounceInRight titulo-h2">Portfolio</h2>
-                                <p>Puedes seguir viendo mi portfolio <a class=texto-mayus href="portfolio.html">aquí</a> o descargarlo haciendo click.</p>
-                                <a class="descargar boton texto-blanco" href="">Descargar PDF</a>
+                            <h1 class="wow bounceInRight titulo">¡Hola!</h1>
+                            <h2 class="titulo-h2">Soy Helena Machado, ilustradora y dibujante de cómics.</h2>
+                            <p>Aquí vas a encontrar <span class="destacado">todo mi trabajo</span> , información sobre <span class="destacado">mis clases de dibujo</span> y la agenda con todos <span class="destacado">los eventos</span> a los que asisto o imparto.</p>
+                            <p>Puedes seguir viendo mi portfolio <a class="texto-mayus texto-resaltado" href="portfolio.html">aquí</a> o descargarlo haciendo click.</p>
                         </article>
                     </div>
                 </div>
+                
             </section>
                 <!--_____________Sección contacto_____________-->
-            <section>
+            <section class="fondo-blanco">
                 <div class="row">
                     <div class="col-xl">
                         <h2 class="wow bounceInLeft titulo-h2">¡Escríbeme!</h2>
