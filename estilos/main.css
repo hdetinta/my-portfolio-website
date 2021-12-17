@@ -344,8 +344,8 @@ select {
   height: 1.5rem; }
 
 /*-----------------------------------MAIN EVENTOS-----------------------------------*/
-.eventos-slider {
-  background-color: grey; }
+.eventos {
+  padding: 3rem; }
 
 /*-----------------------------------MAIN SOBRE MÍ-----------------------------------*/
 .sobremi {
