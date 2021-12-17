@@ -131,17 +131,11 @@ section {
 .texto-resaltado {
   font-weight: bold; }
 
-.texto-pequeño {
-  font-size: 80%; }
-
 .texto-centrado {
   text-align: center; }
 
 .texto-derecha {
   text-align: right; }
-
-.texto-mayus {
-  text-transform: uppercase; }
 
 .destacado {
   color: #81524c;
@@ -238,7 +232,8 @@ section {
   justify-content: center;
   background-color: #93735e;
   border-radius: 10px;
-  padding: 0.375rem 0.75rem; }
+  padding: 0.375rem 0.75rem;
+  max-width: 20rem; }
 
 #p-i-portfolio {
   padding-left: 1rem; }
