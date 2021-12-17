@@ -113,12 +113,6 @@ section {
 .no-margin {
   margin: 0px; }
 
-.boton {
-  /*Sobre el input de contacto*/
-  background-color: #93735e;
-  border-radius: 10px;
-  padding: 0.375rem 0.75rem; }
-
 /*CORRECCION PROBLEMAS DE BOOSTRAP, generaba desplazamiento lateral*/
 .row {
   margin-right: 0rem; }
@@ -342,6 +336,11 @@ select {
 
 .asunto-movil {
   display: none; }
+
+.boton {
+  background-color: #93735e;
+  border-radius: 10px;
+  padding: 0.375rem 0.75rem; }
 
 /*-----------------------------------MAIN EVENTOS-----------------------------------*/
 .eventos-slider {
