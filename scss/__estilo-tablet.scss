@@ -63,6 +63,26 @@
                 }
                 /*____________________MAIN CLASES__________________________________*/
                 
+                    /*Sección Lugar*/
+                    .taller { 
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        grid-template-rows: auto;
+                        column-gap: 2rem;
+                        &-imagen {
+                            
+                            max-height: 30rem;
+                            border-radius: 10px;
+                        }
+                    }
+                    .lugar-div {
+                        display: grid;
+                        grid-template-columns: 1fr;
+                        grid-template-rows: 3fr 2fr;
+                        padding: 2rem;
+                        border-radius: 10px;
+                        min-width: 15rem;
+                    }
                 /*____________________MAIN SOBRE MI__________________________________*/
                 .sobremi{
                     display: grid;

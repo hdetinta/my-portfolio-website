@@ -82,4 +82,26 @@
                     padding: 2rem;
                 }
         }
+
+        /*____________________MAIN CLASES__________________________________*/
+        /*Sección Lugar*/
+        .taller { 
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            column-gap: 2rem;
+            &-imagen {
+                margin-top: 2rem;
+                max-height: 30rem;
+                border-radius: 10px;
+            }
+        }
+        .lugar-div {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 3fr 2fr;
+            padding: 2rem;
+            border-radius: 10px;
+            max-height: 30rem;
+        }
 }
