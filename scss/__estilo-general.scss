@@ -3,7 +3,8 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    z-index: 2;
 }
 a {
     text-decoration: none;
@@ -29,11 +30,6 @@ section {
 .no-margin {
     margin: 0px;
 }
-.boton {
-    background-color:rgb(147, 115, 94);
-    border-radius: 10px;
-    padding: 0.375rem 0.75rem;
-}
 /*CORRECCION PROBLEMAS DE BOOSTRAP, generaba desplazamiento lateral*/
 .row {
     margin-right: 0rem;
@@ -44,30 +40,36 @@ section {
 }
 
     /*---------------------------Texto---------------------------*/
-        .texto-blanco {
-            color: white;
+        .texto {
+            &-blanco {
+                color: white;
+            }
+            &-marron {
+                color: rgb(129, 82, 76);
+            }
+            &-resaltado {
+                font-weight: bold;
+            }
+            &-centrado {
+                text-align: center;
+            }
+            &-derecha {
+                text-align: right;
+            }
         }
-        .texto-marron {
+
+        .destacado {
             color: rgb(129, 82, 76);
-        }
-        .texto-resaltado {
             font-weight: bold;
-        }
-        .texto-pequeño {
-            font-size: 80%;
-        }
-        .texto-centrado {
-            text-align: center;
-        }
-        .texto-derecha {
-            text-align: right;
-        }
-        .todo-mayus {
-            text-transform: uppercase;
         }
         .titulo {
             margin: 3rem;
-            
+            color: rgb(129, 82, 76);
+            font-weight: bold;
+                &-h2 {
+                    font-weight: normal;
+                    margin: 2rem;
+                }
         }
 
     /*---------------------------Imágenes---------------------------*/

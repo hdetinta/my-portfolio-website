@@ -1,10 +1,70 @@
 /*-----------------------------------MAIN INDEX-----------------------------------*/
-.fondo-portfolio-index {
-    background-color: rgb(104, 104, 104);
-}
-.caja-prueba {
+.caja {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    gap: 1rem;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr;
+}
+.carrusel {
+    z-index: 10;
+    padding-right: 3rem;
+    margin-top: 4rem;
+    
+}
+.carrusel-desborde {
+    max-height: 390px;
+}
+.suelo {
+    position: absolute;
+    z-index: 3;
+    top: 0rem;
+    width: 100%;
+    height: 31rem;
+    background-color: white;
+    overflow: hidden;
+}
+.portada {
+    margin: 0px;
+    padding: 0px;
+        &-ilus {
+            position: absolute;
+            z-index: 10;
+            top: 8rem;
+            max-height: 25rem;
+            padding-left: 3rem;
+        }
+}
+.fondo-blanco {
+    background-color: white;
+}
+.index-portfolio {
+    padding-top: 8rem;
+        &-imagen {
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+        }
+        &-boton {
+            padding-top: 4rem;
+        }
+}
+.boton-index {
+    padding: 1.1rem;
+    background-color:rgb(147, 115, 94);
+    border-radius: 10px;
+    padding: 0.75rem;
+    max-width: 20rem;
+        &-div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+}
+
+#p-i-portfolio {
+    padding-left: 1rem;
+
+}
+/*Flecha carousel Bootstrap*/
+.carousel-control-next-icon {
+    background-image: url( ../imagenes/lapiz.png); 
+    min-width: 100%;
 }

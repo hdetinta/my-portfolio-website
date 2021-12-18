@@ -18,7 +18,8 @@ ________________________________________________________________________________
 /*-----------------------------------ASIDE-----------------------------------*/
 aside {
   background-color: black;
-  font-size: 20px; }
+  font-size: 20px;
+  z-index: 3; }
   aside nav ul li {
     margin-top: 1rem;
     padding: 0,5rem; }
@@ -87,7 +88,8 @@ aside {
 body {
   font-family: 'Josefin Sans', sans-serif;
   margin: 0rem;
-  font-size: 1rem; }
+  font-size: 1.1rem;
+  z-index: 2; }
 
 a {
   text-decoration: none;
@@ -111,11 +113,6 @@ section {
 .no-margin {
   margin: 0px; }
 
-.boton {
-  background-color: #93735e;
-  border-radius: 10px;
-  padding: 0.375rem 0.75rem; }
-
 /*CORRECCION PROBLEMAS DE BOOSTRAP, generaba desplazamiento lateral*/
 .row {
   margin-right: 0rem; }
@@ -134,20 +131,23 @@ section {
 .texto-resaltado {
   font-weight: bold; }
 
-.texto-pequeño {
-  font-size: 80%; }
-
 .texto-centrado {
   text-align: center; }
 
 .texto-derecha {
   text-align: right; }
 
-.todo-mayus {
-  text-transform: uppercase; }
+.destacado {
+  color: #81524c;
+  font-weight: bold; }
 
 .titulo {
-  margin: 3rem; }
+  margin: 3rem;
+  color: #81524c;
+  font-weight: bold; }
+  .titulo-h2 {
+    font-weight: normal;
+    margin: 2rem; }
 
 /*---------------------------Imágenes---------------------------*/
 .imagen-filtro:hover {
@@ -183,14 +183,67 @@ section {
 
 /*..Estilos específicos de cada página html..*/
 /*-----------------------------------MAIN INDEX-----------------------------------*/
-.fondo-portfolio-index {
-  background-color: #686868; }
-
-.caja-prueba {
+.caja {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto;
-  gap: 1rem; }
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 1fr; }
+
+.carrusel {
+  z-index: 10;
+  padding-right: 3rem;
+  margin-top: 4rem; }
+
+.carrusel-desborde {
+  max-height: 390px; }
+
+.suelo {
+  position: absolute;
+  z-index: 3;
+  top: 0rem;
+  width: 100%;
+  height: 31rem;
+  background-color: white;
+  overflow: hidden; }
+
+.portada {
+  margin: 0px;
+  padding: 0px; }
+  .portada-ilus {
+    position: absolute;
+    z-index: 10;
+    top: 8rem;
+    max-height: 25rem;
+    padding-left: 3rem; }
+
+.fondo-blanco {
+  background-color: white; }
+
+.index-portfolio {
+  padding-top: 8rem; }
+  .index-portfolio-imagen {
+    margin-top: 3rem;
+    margin-bottom: 2rem; }
+  .index-portfolio-boton {
+    padding-top: 4rem; }
+
+.boton-index {
+  padding: 1.1rem;
+  background-color: #93735e;
+  border-radius: 10px;
+  padding: 0.75rem;
+  max-width: 20rem; }
+  .boton-index-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+#p-i-portfolio {
+  padding-left: 1rem; }
+
+/*Flecha carousel Bootstrap*/
+.carousel-control-next-icon {
+  background-image: url(../imagenes/lapiz.png);
+  min-width: 100%; }
 
 /*-----------------------------------MAIN CLASES-----------------------------------*/
 .imagen-max-espacio {
@@ -236,7 +289,7 @@ section {
   .seccion-lugar div p {
     padding-left: 2rem; }
 
-.desobediente {
+.taller {
   padding: 2rem; }
 
 .fondo-funcionamiento {
@@ -280,6 +333,15 @@ select {
 
 .asunto-movil {
   display: none; }
+
+.boton {
+  background-color: #93735e;
+  border-radius: 10px;
+  padding: 0.375rem 0.75rem; }
+
+.check {
+  width: 1.5rem;
+  height: 1.5rem; }
 
 /*-----------------------------------MAIN EVENTOS-----------------------------------*/
 .eventos-slider {
@@ -351,8 +413,6 @@ select {
     grid-template-rows: repeat(9);
     column-gap: 1rem; }
   /*____________________MAIN CLASES__________________________________*/
-  .item-horarios {
-    background-color: #272727; }
   /*____________________MAIN SOBRE MI__________________________________*/
   .sobremi {
     display: grid;
