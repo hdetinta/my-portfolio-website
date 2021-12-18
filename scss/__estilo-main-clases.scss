@@ -1,56 +1,58 @@
 /*-----------------------------------MAIN CLASES-----------------------------------*/
 
-.imagen-max-espacio {
-    max-width: fit-content;
-    max-height: 500px;
-    object-fit: cover;
-}
-.enfasis {
-    font-size: 200%;
-    font-weight: bold;
-}
-.aviso {
-    color: black;
-    text-align: left;
-}
-.seccion-materiales {
-    background-image: url(./imagenes/materiales.jpg);
-    background-size: contain;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: minmax(100px, 500px);
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-        & div h2 {
-            padding: 1rem;
-            padding-left: 3rem;
+/*Ordenadas por secciones..........................................................*/
+    /*_______1. Objetivo_______*/
+    /*_______2. Funcionamiento_______*/
+    /*_______3. Materiales_______*/
+        
+        .seccion-materiales {
+            background-image: url(./imagenes/materiales.jpg);
+            background-size: contain;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: minmax(100px, 500px);
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+                & div h2 {
+                    padding: 1rem;
+                    padding-left: 3rem;
+                }
+                & div p {
+                    padding-left: 2rem;
+                }
         }
-        & div p {
-            padding-left: 2rem;
+    /*_______4. Horarios_______*/
+        
+        .item-horarios {
+            
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         }
-}
-.item-horarios {
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-.seccion-lugar {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    margin: 0px;
-    padding: 0px;
-        & div iframe {
+    /*_______5. Lugar_______*/
+        
+        .seccion-lugar {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            margin: 0px;
+            padding: 0px;
+                & div iframe {
+                    padding: 2rem;
+                }
+                & div p {
+                    padding-left: 2rem;
+                }
+        }
+        .taller { 
             padding: 2rem;
         }
-        & div p {
-            padding-left: 2rem;
-        }
-}
-.taller { 
-    padding: 2rem;
-}
-
-.fondo-funcionamiento {background-image: url(/imagenes/funcionamiento.png);
-background-size: contain;}
+    /*_______6. Información_______*/
+    .aviso {
+        color: black;
+        text-align: left;
+    }
+    .enfasis {
+        font-size: 200%;
+        font-weight: bold;
+    }
