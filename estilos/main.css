@@ -176,6 +176,7 @@ section {
 /*------Fondos------------------*/
 .fondo-papel {
   background-image: url(../imagenes/ep_naturalwhite.png);
+  background-attachment: fixed;
   /*=========================================================================
                     This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ 
                     If you need more, that's where to get'em.
@@ -283,7 +284,26 @@ section {
     padding-left: 2rem; }
 
 .taller {
+  width: 100%;
+  height: 100%;
   padding: 2rem; }
+  .taller-fondo {
+    background-image: url(../imagenes/lasclases.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; }
+
+.mapa {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1.5rem; }
+
+.lugar-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 2fr;
+  padding: 2rem;
+  border-radius: 10px; }
 
 /*_______6. Información_______*/
 .aviso {
