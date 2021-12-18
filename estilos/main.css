@@ -179,8 +179,6 @@ section {
 /*------Fondos------------------*/
 .fondo-papel {
   background-image: url(../imagenes/ep_naturalwhite.png);
-  max-height: 1rem;
-  padding-left: 0.5rem;
   background-attachment: fixed;
   /*=========================================================================
                     This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ 
