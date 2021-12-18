@@ -432,7 +432,7 @@ select {
   /*____________________MAIN SOBRE MI__________________________________*/
   .sobremi {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 60% 40%;
     grid-template-columns: 1fr; }
     .sobremi div {
       justify-self: center; }
