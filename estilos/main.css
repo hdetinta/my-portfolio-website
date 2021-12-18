@@ -24,7 +24,7 @@ aside {
     margin-top: 1rem;
     padding: 0,5rem; }
   aside a:hover {
-    color: #81524c; }
+    color: #93735e; }
   aside-hover:hover {
     transform: translate(6px, 6px); }
 
@@ -63,6 +63,9 @@ aside {
 
 .dropdown-menu .margen-inferior {
   padding-bottom: 2rem; }
+
+.hover-aside:hover {
+  transform: translate(20px, 0px); }
 
 /*-----------------------------------FOOTER-----------------------------------*/
 .footer {
@@ -176,6 +179,8 @@ section {
 /*------Fondos------------------*/
 .fondo-papel {
   background-image: url(../imagenes/ep_naturalwhite.png);
+  max-height: 1rem;
+  padding-left: 0.5rem;
   background-attachment: fixed;
   /*=========================================================================
                     This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ 
