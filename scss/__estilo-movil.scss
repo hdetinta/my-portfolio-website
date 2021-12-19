@@ -81,6 +81,15 @@
             display: grid;
             grid-template-columns: 1fr;
         }
+        .inclinar-derecha:hover {
+            transform: rotate(0deg) translate(0px, 0px)
+        }
+        .inclinar-izquierda:hover {
+            transform: rotate(0deg) translate(0px, 0px)
+        }
+        .subir:hover {
+            transform: translateY(0px)
+        }
         /*____________________MAIN SOBRE MI__________________________________*/
         .sobremi{
             display: grid;
