@@ -47,6 +47,28 @@
                 }
         }
         /*____________________MAIN__________________________________*/
+        .carrusel {
+            visibility: hidden;
+        }
+        .index-portfolio-imagen {
+            max-width: 20rem;
+        }
+        .suelo {
+            position: absolute;
+            z-index: 3;
+            top: 0rem;
+            width: 100%;
+            height: 26rem;
+            background-color: white;
+            overflow: hidden;
+        }
+        .portada {
+            margin: 0px;
+            padding: 0px;
+                &-ilus {
+                    visibility: hidden;
+                }
+        }
         section {
             margin: 0rem;
             padding: 2rem;

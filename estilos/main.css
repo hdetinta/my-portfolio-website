@@ -439,8 +439,34 @@ select {
     justify-content: space-around; }
   /*____________________2. FOOTER__________________________________*/
   /*____________________3. MAIN__________________________________*/
+  .carrusel {
+    z-index: 10;
+    padding-right: 2rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    max-width: 25rem; }
+  .suelo {
+    position: absolute;
+    z-index: 3;
+    top: 0rem;
+    width: 100%;
+    height: 31rem;
+    background-color: white;
+    overflow: hidden; }
+  .portada {
+    margin: 0px;
+    padding: 0px; }
+    .portada-ilus {
+      position: absolute;
+      z-index: 10;
+      top: 8rem;
+      max-height: 25rem;
+      padding-left: 3rem; }
   .titulo {
     margin: 2rem; }
+  .index-portfolio-imagen {
+    max-width: 25rem;
+    margin-top: 6rem; }
   /*____________________3.1 MAIN GALERÍA__________________________________*/
   .galeria {
     display: grid;
@@ -517,6 +543,23 @@ select {
     .footer-vh {
       min-height: 25vh; }
   /*____________________MAIN__________________________________*/
+  .carrusel {
+    visibility: hidden; }
+  .index-portfolio-imagen {
+    max-width: 20rem; }
+  .suelo {
+    position: absolute;
+    z-index: 3;
+    top: 0rem;
+    width: 100%;
+    height: 26rem;
+    background-color: white;
+    overflow: hidden; }
+  .portada {
+    margin: 0px;
+    padding: 0px; }
+    .portada-ilus {
+      visibility: hidden; }
   section {
     margin: 0rem;
     padding: 2rem; }
