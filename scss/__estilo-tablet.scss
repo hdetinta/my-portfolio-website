@@ -76,12 +76,15 @@
                         }
                     }
                     .lugar-div {
-                        display: grid;
-                        grid-template-columns: 1fr;
-                        grid-template-rows: 3fr 2fr;
+                        max-height: 30rem;
                         padding: 2rem;
                         border-radius: 10px;
                         min-width: 15rem;
+                    }
+                    .mapa {
+                        width: 100%;
+                        height: 100%;
+                        padding-bottom: 0.5rem;
                     }
                 /*____________________MAIN SOBRE MI__________________________________*/
                 .sobremi{

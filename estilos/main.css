@@ -281,7 +281,8 @@ section {
   grid-template-rows: auto;
   column-gap: 2rem; }
   .taller-imagen {
-    max-height: 35rem;
+    width: 100%;
+    height: 100%;
     border-radius: 10px; }
 
 .mapa {
@@ -294,12 +295,7 @@ section {
   grid-template-columns: 1fr;
   grid-template-rows: 3fr 2fr;
   padding: 2rem;
-  border-radius: 10px;
-  max-height: 40rem; }
-  .lugar-div-foto {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 80% 20%; }
+  border-radius: 10px; }
 
 /*_______6. Información_______*/
 .aviso {
@@ -392,6 +388,15 @@ select {
   max-height: none;
   border: none; }
 
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  max-width: inherit;
+  max-height: none;
+  border-radius: 0px !important;
+  /* No se sobreescribía sencillamente cambiando la clase, necesario important para anular lightbox. Pendiente una solución mejor.*/
+  border: none !important; }
+
 /*..Media Querys..*/
 /*...............................................................................................................
 .................................................................................................................*/
@@ -453,12 +458,14 @@ select {
       max-height: 30rem;
       border-radius: 10px; }
   .lugar-div {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr 2fr;
+    max-height: 30rem;
     padding: 2rem;
     border-radius: 10px;
     min-width: 15rem; }
+  .mapa {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0.5rem; }
   /*____________________MAIN SOBRE MI__________________________________*/
   .sobremi {
     display: grid;
