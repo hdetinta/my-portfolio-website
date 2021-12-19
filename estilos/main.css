@@ -374,7 +374,8 @@ textarea {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(6);
-  column-gap: 1rem; }
+  column-gap: 1rem;
+  row-gap: 1rem; }
 
 /*Corrección de estilo para el zoom implementado a través de Lightbox*/
 .lightbox {
