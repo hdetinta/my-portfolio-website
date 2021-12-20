@@ -361,6 +361,23 @@ textarea {
 .eventos {
   padding: 3rem; }
 
+.desplegable {
+  background-color: #93735e; }
+  .desplegable-div {
+    margin-bottom: 1rem; }
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #93735e;
+  box-shadow: none; }
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #93735e; }
+
+.borde {
+  border-radius: 10px; }
+
 /*-----------------------------------MAIN SOBRE MÍ-----------------------------------*/
 .sobremi {
   display: grid;
