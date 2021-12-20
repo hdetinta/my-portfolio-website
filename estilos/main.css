@@ -241,8 +241,9 @@ section {
 .index-portfolio {
   padding-top: 8rem; }
   .index-portfolio-imagen {
+    margin-bottom: 2rem;
     margin-top: 3rem;
-    margin-bottom: 2rem; }
+    max-width: 20rem; }
   .index-portfolio-boton {
     padding-top: 4rem; }
 
@@ -258,7 +259,8 @@ section {
     align-items: center; }
 
 #p-i-portfolio {
-  padding-left: 1rem; }
+  padding-left: 1rem;
+  margin-top: 3rem; }
 
 /*Flecha carousel Bootstrap*/
 .carousel-control-next-icon {
@@ -503,8 +505,7 @@ textarea {
   .titulo {
     margin: 2rem; }
   .index-portfolio-imagen {
-    max-width: 25rem;
-    margin-top: 6rem; }
+    max-width: 25rem; }
   /*____________________3.1 MAIN GALERÍA__________________________________*/
   /*____________________MAIN CLASES__________________________________*/
   /*Sección Lugar*/
@@ -578,6 +579,9 @@ textarea {
   /*____________________MAIN__________________________________*/
   .portada-movil {
     visibility: visible; }
+  #p-i-portfolio {
+    padding-left: 1rem;
+    margin-top: 5rem; }
   .carrusel {
     visibility: hidden; }
   .index-portfolio-imagen {

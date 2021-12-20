@@ -47,8 +47,9 @@
 .index-portfolio {
     padding-top: 8rem;
         &-imagen {
-            margin-top: 3rem;
             margin-bottom: 2rem;
+            margin-top: 3rem;
+            max-width: 20rem;
         }
         &-boton {
             padding-top: 4rem;
@@ -69,6 +70,7 @@
 
 #p-i-portfolio {
     padding-left: 1rem;
+    margin-top: 3rem;
 }
 /*Flecha carousel Bootstrap*/
 .carousel-control-next-icon {
