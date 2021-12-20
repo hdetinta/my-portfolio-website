@@ -32,6 +32,14 @@
             max-height: 25rem;
             padding-left: 3rem;
         }
+        &-movil {
+            z-index: 15;
+            position: absolute;
+            max-width: 17rem;
+            top: 6.5rem;
+            left: 2rem;
+            visibility: hidden;
+        }
 }
 .fondo-blanco {
     background-color: white;
@@ -39,8 +47,9 @@
 .index-portfolio {
     padding-top: 8rem;
         &-imagen {
-            margin-top: 3rem;
             margin-bottom: 2rem;
+            margin-top: 3rem;
+            max-width: 20rem;
         }
         &-boton {
             padding-top: 4rem;
@@ -61,6 +70,7 @@
 
 #p-i-portfolio {
     padding-left: 1rem;
+    margin-top: 3rem;
 }
 /*Flecha carousel Bootstrap*/
 .carousel-control-next-icon {
