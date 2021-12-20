@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--..Color de tema para Chrome, Firefox OS and Opera..-->
+    <meta name="theme-color" content="#000">
+        <!--..Color de tema para iOS Safari..-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
         <!--..SEO..-->
     <meta name="keywords" content="Ilustración infantil, dibujo infantil, cuentos infantiles, álbum ilustrado, clases de dibujo, portfolio.">
     <meta name="description" content="Ilustradora infantil y  dibujante de cómics española. Siempre dispuesta a explorar nuevos formatos."> 
     <title>Helena Machado | Inicio </title>
+        <!--..FavIcon..-->
+    <link rel="shortcut icon" type="image/png" href="/imagenes/favicon.png"/>
         <!--..Tipografías..-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,11 +35,11 @@
                 <nav>
                     <a class="aside  horizontal" href="index.html"><img class="aside-logo" src="imagenes/logoblanco.png" alt="logo Helena Machado"></a>
                     <ul class="justify">
-                        <li class="hover-aside"><a class="aside horizontal" href="portfolio.html">Galería</li>
-                        <li class="hover-aside"><a class="aside horizontal" href="contacto.html">Contacto</a></li>
-                        <li class="hover-aside"><a class="aside horizontal" href="eventos.html">Eventos</a></li>
-                        <li class="hover-aside"><a class="aside horizontal" href="clases.html">Clases</a></li>
-                        <li class="hover-aside"><a class="aside horizontal margen-inferior" href="sobremi.html">Sobre mí</a></li>
+                        <a class="aside horizontal" href="portfolio.html"><li class="hover-aside">Galería</li></a>
+                        <a class="aside horizontal" href="contacto.html"><li class="hover-aside">Contacto</li></a>
+                        <a class="aside horizontal" href="eventos.html"><li class="hover-aside">Eventos</li></a>
+                        <a class="aside horizontal" href="clases.html"><li class="hover-aside">Clases</li></a>
+                        <a class="aside horizontal" href="sobremi.html"><li class="hover-aside">Sobre mí</li></a>
                     </ul>
                 </nav>
             </div>
@@ -49,11 +55,11 @@
                                     <span class="fijo texto-blanco">Menú</span>
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-dark bg-black" aria-labelledby="navbarDarkDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="portfolio.html">Galería</a></li>
-                                        <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
-                                        <li><a class="dropdown-item" href="eventos.html">Eventos</a></li>
-                                        <li><a class="dropdown-item" href="clases.html">Clases</a></li>
-                                        <li><a class="dropdown-item" href="sobremi.html">Sobre mí</a></li>
+                                        <a class="dropdown-item" href="portfolio.html"><li>Galería</li></a>
+                                        <a class="dropdown-item" href="contacto.html"><li>Contacto</li></a>
+                                        <a class="dropdown-item" href="eventos.html"><li>Eventos</li></a>
+                                        <a class="dropdown-item" href="clases.html"><li>Clases</li></a>
+                                        <a class="dropdown-item" href="sobremi.html"><li>Sobre mí</li></a>
                                     </ul>
                                 </li>
                                 </ul>
@@ -133,15 +139,15 @@
                 <!--_____________Sección eventos_____________-->
             <section class="fondo-papel texto-derecha">
                 <div class="row">
-                    <div class="col-xl  order-md-2 order-sm-2">
-                        <img class="imagen-prueba" src="./imagenes/EVENTOS.png" alt="ilustracion niño leyendo sentado en el suelo">
-                    </div>
-                    <div class="col-xl order-md-1 order-sm-1">
+                    <div class="col-xl order-xl-2 order-sm-1">
                         <h2 class="titulo-h2 wow bounceInRight">Próximos eventos</h2>
                                 <p><span class="destacado">08 Enero - Santiago de Compostela</span> (A Coruña) |<span class="texto-resaltado"> Taller de dibujo infantil.</span></p>
                                 <p><span class="destacado">19 Febrero - Ferrol </span>(A Coruña) | <span class="texto-resaltado">Inauguración de la exposición 'Páginas en blanco'.</span></p>
                                 <p><span class="destacado">06 Noviembre - Pontevedra</span> (Pontevedra) |<span class="texto-resaltado"> Presentación y firma '¡Oh Dios! Aprendiendo desarrollo web!' (Fanzine)</span></p>
                                 <a class="boton-index texto-blanco" href="eventos.html">¡Quiero saber más!</a>
+                    </div>
+                    <div class="col-xl order-xl-1 order-sm-2">
+                        <img class="imagen-prueba" src="./imagenes/EVENTOS.png" alt="libro siendo firmado por una plumilla">
                     </div>
                 </div>
             </section>
@@ -167,18 +173,18 @@
             <h4>¡Estemos en contacto!</h4>
             <div class="footer-redes">
                     <img class="footer-logo footer-logo-izquierda" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis">
-                    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/hdetinta"><img class="footer-logo" src="./imagenes/instagram_logo_blanco.png" alt="instagram logo"></a>
+                    <a class="nav-link active" target="_blank" aria-current="page" href="https://www.instagram.com/hdetinta"><img class="footer-logo" src="./imagenes/instagram_logo_blanco.png" alt="instagram logo"></a>
                     <img class="footer-logo footer-logo-derecha" src="./imagenes/enfasiscierra.png" alt="tres líneas de énfasis">
 
                     <img class="footer-logo footer-logo-izquierda" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis">
-                    <a class="nav-link" href="https://www.github.com/hdetinta"><img class="footer-logo" src="./imagenes/GitHub-Mark-Light-64px.png" alt="githublogo"></a>
+                    <a class="nav-link" target="_blank" href="https://www.github.com/hdetinta"><img class="footer-logo" src="./imagenes/GitHub-Mark-Light-64px.png" alt="githublogo"></a>
                     <img class="footer-logo" src="./imagenes/enfasiscierra.png" alt="tres líneas de énfasis">
 
                     <img class="footer-logo footer-logo-izquierda" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis">
                     <a class="nav-link" href="mailto:contacto@helenamachado.art?Subject=¡Hablemos%20de%20...%20!%20"><img class="footer-logo" src="./imagenes/mail.png" alt="icono de sobre"></a>
                     <img class="footer-logo" src="./imagenes/enfasiscierra.png" alt="tres líneas de énfasis">
             </div>
-            <p class="">&copy; Diseño Web e Ilustraciones de Helena Machado</p>
+            <p>&copy; Diseño Web e Ilustraciones de Helena Machado</p>
         </div>
     </footer>
     <!--..............SCRIPTS..............-->

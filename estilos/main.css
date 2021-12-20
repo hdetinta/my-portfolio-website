@@ -36,7 +36,10 @@ aside {
     margin: 1rem;
     margin-top: 0;
     width: 90%;
-    height: 100%; }
+    height: 100%;
+    background-image: url(../imagenes/logohover.png); }
+  .aside-logo:hover {
+    visibility: hidden; }
   .aside-lapiz {
     max-height: 1rem;
     padding-left: 0.5rem; }
@@ -175,6 +178,12 @@ section {
 
 .icon {
   max-width: 25px; }
+
+.error {
+  display: flex;
+  justify-content: center; }
+  .error-imagen {
+    width: 75%; }
 
 /*------Fondos------------------*/
 .fondo-papel {
@@ -360,6 +369,23 @@ textarea {
 /*-----------------------------------MAIN EVENTOS-----------------------------------*/
 .eventos {
   padding: 3rem; }
+
+.desplegable {
+  background-color: #93735e; }
+  .desplegable-div {
+    margin-bottom: 1rem; }
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #93735e;
+  box-shadow: none; }
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #93735e; }
+
+.borde {
+  border-radius: 10px; }
 
 /*-----------------------------------MAIN SOBRE MÍ-----------------------------------*/
 .sobremi {

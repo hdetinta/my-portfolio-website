@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--..Color de tema para Chrome, Firefox OS and Opera..-->
+    <meta name="theme-color" content="#000">
+        <!--..Color de tema para iOS Safari..-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
         <!--..SEO..-->
     <meta name="keywords" content="galería, trabajos, ilustraciones, ilustración, dibujos, obras, portfolio, proyectos">
     <meta name="description" content="Aquí puedes ver todos mis trabajos de ilustración y dibujo."> 
     <title>Helena Machado | Galería</title>
+        <!--..FavIcon..-->
+    <link rel="shortcut icon" type="image/png" href="/imagenes/favicon.png"/>
         <!--..Tipografías..-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -29,11 +35,11 @@
             <nav>
                 <a class="aside  horizontal" href="index.html"><img class="aside-logo" src="imagenes/logoblanco.png" alt="logo Helena Machado"></a>
                 <ul class="justify">
-                    <li><a class="aside horizontal" href="portfolio.html"><img  class="aside-lapiz" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis"> Galería<img class="aside-lapiz" src="./imagenes/lapiz.png" alt="lápiz"></a></li>
-                    <li class="hover-aside"><a class="aside horizontal" href="contacto.html">Contacto</a></li>
-                    <li class="hover-aside"><a class="aside horizontal" href="eventos.html">Eventos</a></li>
-                    <li class="hover-aside"><a class="aside horizontal" href="clases.html">Clases</a></li>
-                    <li class="hover-aside"><a class="aside horizontal" href="sobremi.html">Sobre mí</a></li>
+                    <a class="aside horizontal" href="portfolio.html"><li><img class="aside-lapiz" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis"> Galería<img class="aside-lapiz" src="./imagenes/lapiz.png" alt="lápiz"></li></a>
+                    <a class="aside horizontal" href="contacto.html"><li class="hover-aside">Contacto</li></a>
+                    <a class="aside horizontal" href="eventos.html"><li class="hover-aside"> Eventos</li></a>
+                    <a class="aside horizontal" href="clases.html"><li class="hover-aside">Clases</li></a>
+                    <a class="aside horizontal" href="sobremi.html"><li class="hover-aside">Sobre mí</li></a>
                 </ul>
             </nav>
         </div>
@@ -49,11 +55,11 @@
                                 <span class="fijo texto-blanco">Menú</span>
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark bg-black" aria-labelledby="navbarDarkDropdownMenuLink">
-                                    <li class="aside-responsive"><a class="dropdown-item aside-responsive" href="portfolio.html"><img  class="aside-lapiz" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis">Galería<img class="aside-lapiz" src="./imagenes/enfasiscierra.png" alt="lápiz"></a></li>
-                                    <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
-                                    <li><a class="dropdown-item" href="eventos.html">Eventos</a></li>
-                                    <li><a class="dropdown-item" href="clases.html">Clases</a></li>
-                                    <li><a class="dropdown-item" href="sobremi.html">Sobre mí</a></li>
+                                    <a class="dropdown-item aside-responsive" href="portfolio.html"><li><img  class="aside-lapiz" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis">Galería<img class="aside-lapiz" src="./imagenes/enfasiscierra.png" alt="lápiz"></li></a>
+                                    <a class="dropdown-item" href="contacto.html"><li>Contacto</li></a>
+                                    <a class="dropdown-item" href="eventos.html"><li>Eventos</li></a>
+                                    <a class="dropdown-item" href="clases.html"><li>Clases</li></a>
+                                    <a class="dropdown-item" href="sobremi.html"><li>Sobre mí</li></a>
                                 </ul>
                             </li>
                             </ul>
@@ -66,7 +72,6 @@
         <main>
             <h1 class="titulo wow bounceInLeft">Galería</h1>
             <section class="galeria">
-     
                 <a href="./imagenes/damaarmiño.jpg" data-lightbox="galería"><img class="galeria-vertical example-image imagen-filtro inclinar-izquierda" src="./imagenes/comprimidas/armiño.jpg" alt="reinterpretación dama del armiño con gatos" /></a>
                 <a href="./imagenes/Isabel.jpg" data-lightbox="galería"><img class="galeria-vertical imagen-filtro subir" src="./imagenes/comprimidas/isabel.jpg" alt="Reina Isabel II"></a>
                 <a href="./imagenes/diadelpadre-scaled.jpg" data-lightbox="galería"><img class="galeria-vertical imagen-filtro inclinar-derecha" src="./imagenes/comprimidas/padre.jpg" alt="Padre e hija con globo"></a>
@@ -88,8 +93,6 @@
                 <a href="./imagenes/deportes-scaled.jpg" data-lightbox="galería"><img class="imagen-filtro subir" src="./imagenes/comprimidas/deportes.jpg" alt="deportista sentado"></a>
                 <a href="./imagenes/ciclodelagua.png" data-lightbox="galería"><img class="imagen-filtro inclinar-derecha" src="./imagenes/comprimidas/ciclo.png" alt="ciclo del agua"></a>
 
-
-
                 <a href="./imagenes/casabruja.jpg" data-lightbox="galería"><img class="imagen-filtro inclinar-izquierda" src="./imagenes/comprimidas/cabaña.jpg" alt="casa de una bruja"></a>
                 <a href="./imagenes/perro.jpg" data-lightbox="galería"><img class="imagen-filtro subir" src="./imagenes/comprimidas/mascotas.jpg" alt="Perro y hámster durmiendo juntos"></a>
                 <a href="./imagenes/distanciaseguridad-scaled.jpg" data-lightbox="galería"><img class="imagen-filtro inclinar-derecha" src="./imagenes/comprimidas/mascarillas.jpg" alt="distancia de seguridad Covid19"></a>
@@ -102,18 +105,18 @@
             <h4>¡Estemos en contacto!</h4>
             <div class="footer-redes">
                     <img class="footer-logo footer-logo-izquierda" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis">
-                    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/hdetinta"><img class="footer-logo" src="./imagenes/instagram_logo_blanco.png" alt="instagram logo"></a>
+                    <a class="nav-link active" target="_blank" aria-current="page" href="https://www.instagram.com/hdetinta"><img class="footer-logo" src="./imagenes/instagram_logo_blanco.png" alt="instagram logo"></a>
                     <img class="footer-logo footer-logo-derecha" src="./imagenes/enfasiscierra.png" alt="tres líneas de énfasis">
 
                     <img class="footer-logo footer-logo-izquierda" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis">
-                    <a class="nav-link" href="https://www.github.com/hdetinta"><img class="footer-logo" src="./imagenes/GitHub-Mark-Light-64px.png" alt="githublogo"></a>
+                    <a class="nav-link" target="_blank" href="https://www.github.com/hdetinta"><img class="footer-logo" src="./imagenes/GitHub-Mark-Light-64px.png" alt="githublogo"></a>
                     <img class="footer-logo" src="./imagenes/enfasiscierra.png" alt="tres líneas de énfasis">
 
                     <img class="footer-logo footer-logo-izquierda" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis">
                     <a class="nav-link" href="mailto:contacto@helenamachado.art?Subject=¡Hablemos%20de%20...%20!%20"><img class="footer-logo" src="./imagenes/mail.png" alt="icono de sobre"></a>
                     <img class="footer-logo" src="./imagenes/enfasiscierra.png" alt="tres líneas de énfasis">
             </div>
-            <p class="">&copy; Diseño Web e Ilustraciones de Helena Machado</p>
+            <p>&copy; Diseño Web e Ilustraciones de Helena Machado</p>
         </div>
     </footer>
     <!--..............SCRIPTS..............-->

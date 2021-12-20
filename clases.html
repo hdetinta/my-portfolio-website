@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--..Color de tema para Chrome, Firefox OS and Opera..-->
+    <meta name="theme-color" content="#000">
+        <!--..Color de tema para iOS Safari..-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
         <!--..SEO..-->
     <meta name="keywords" content="clases de dibujo, clases de ilustración, A Coruña, presenciales">
     <meta name="description" content="Clases presenciales y personalizadas  de dibujo e ilustración para niños o adultos a cualquier nivel en A Coruña."> 
     <title>Helena Machado  | Clases</title>
+        <!--..FavIcon..-->
+    <link rel="shortcut icon" type="image/png" href="/imagenes/favicon.png"/>
         <!--..Tipografías..-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -21,45 +27,45 @@
 <body>
     <div class="grid-principal">
     <!----------------------------------------------ASIDE-------------------------------------------------------------->
-        <aside>
-            <!--Pantallas grandes--------------------------------------------------------------------->
-            <div class="sticky responsive">
-                <nav>
-                    <a class="aside  horizontal" href="index.html"><img class="aside-logo" src="imagenes/logoblanco.png" alt="logo Helena Machado"></a>
-                    <ul class="justify">
-                        <li class="hover-aside"><a class="aside horizontal" href="portfolio.html">Galería</li>
-                        <li class="hover-aside"><a class="aside horizontal" href="contacto.html">Contacto</a></li>
-                        <li class="hover-aside"><a class="aside horizontal" href="eventos.html">Eventos</a></li>
-                        <li><a class="aside horizontal" href="clases.html"><img  class="aside-lapiz" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis"> Clases<img class="aside-lapiz" src="./imagenes/lapiz.png" alt="lápiz"></a></li>
-                        <li class="hover-aside"><a class="aside horizontal" href="sobremi.html">Sobre mí</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <!--Pantallas pequeñas------------------------------------------------------------------->
-            <div class="menu-horizontal">
-                <nav class="navbar navbar-expand navbar-dark bg-black">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="index.html"><img class="logo-movil" src="./imagenes/logoblanco.png" alt="logo Helena Machado"></a>
-                            <div  id="navbarNavDarkDropdown">
-                                <ul class="navbar-nav">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <span class="fijo texto-blanco">Menú</span>
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-menu-dark bg-black" aria-labelledby="navbarDarkDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="portfolio.html">Galería</a></li>
-                                        <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
-                                        <li><a class="dropdown-item" href="eventos.html">Eventos</a></li>
-                                        <li><a class="dropdown-item aside-responsive" href="clases.html"><img  class="aside-lapiz" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis">Clases<img class="aside-lapiz" src="./imagenes/enfasiscierra.png" alt="lápiz"></a></li>
-                                        <li><a class="dropdown-item" href="sobremi.html">Sobre mí</a></li>
-                                    </ul>
-                                </li>
+    <aside>
+        <!--Pantallas grandes--------------------------------------------------------------------->
+        <div class="sticky responsive">
+            <nav>
+                <a class="aside  horizontal" href="index.html"><img class="aside-logo" src="imagenes/logoblanco.png" alt="logo Helena Machado"></a>
+                <ul class="justify">
+                    <a class="aside horizontal" href="portfolio.html"><li class="hover-aside">Galería</li></a>
+                    <a class="aside horizontal" href="contacto.html"><li class="hover-aside">Contacto</li></a>
+                    <a class="aside horizontal" href="eventos.html"><li class="hover-aside"> Eventos</li></a>
+                    <a class="aside horizontal" href="clases.html"><li><img class="aside-lapiz" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis"> Clases<img class="aside-lapiz" src="./imagenes/lapiz.png" alt="lápiz"></li></a>
+                    <a class="aside horizontal" href="sobremi.html"><li class="hover-aside">Sobre mí</li></a>
+                </ul>
+            </nav>
+        </div>
+        <!--Pantallas pequeñas------------------------------------------------------------------->
+        <div class="menu-horizontal">
+            <nav class="navbar navbar-expand navbar-dark bg-black">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img class="logo-movil" src="./imagenes/logoblanco.png" alt="logo Helena Machado"></a>
+                        <div  id="navbarNavDarkDropdown">
+                            <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="fijo texto-blanco">Menú</span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark bg-black" aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <a class="dropdown-item" href="portfolio.html"><li>Galería</li></a>
+                                    <a class="dropdown-item" href="contacto.html"><li>Contacto</li></a>
+                                    <a class="dropdown-item" href="eventos.html"><li>Eventos</li></a>
+                                    <a class="dropdown-item aside-responsive" href="clases.html"><li><img  class="aside-lapiz" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis">Clases<img class="aside-lapiz" src="./imagenes/enfasiscierra.png" alt="lápiz"></li></a>
+                                    <a class="dropdown-item" href="sobremi.html"><li>Sobre mí</li></a>
                                 </ul>
-                            </div>
-                    </div>
-                </nav>
-            </div>
-        </aside>
+                            </li>
+                            </ul>
+                        </div>
+                </div>
+            </nav>
+        </div>
+    </aside>
         <!----------------------------------------------MAIN-------------------------------------------------------------->
         <main>
                 <!--_____________Sección objetivo_____________-->
@@ -200,18 +206,18 @@
             <h4>¡Estemos en contacto!</h4>
             <div class="footer-redes">
                     <img class="footer-logo footer-logo-izquierda" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis">
-                    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/hdetinta"><img class="footer-logo" src="./imagenes/instagram_logo_blanco.png" alt="instagram logo"></a>
+                    <a class="nav-link active" target="_blank" aria-current="page" href="https://www.instagram.com/hdetinta"><img class="footer-logo" src="./imagenes/instagram_logo_blanco.png" alt="instagram logo"></a>
                     <img class="footer-logo footer-logo-derecha" src="./imagenes/enfasiscierra.png" alt="tres líneas de énfasis">
 
                     <img class="footer-logo footer-logo-izquierda" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis">
-                    <a class="nav-link" href="https://www.github.com/hdetinta"><img class="footer-logo" src="./imagenes/GitHub-Mark-Light-64px.png" alt="githublogo"></a>
+                    <a class="nav-link" target="_blank" href="https://www.github.com/hdetinta"><img class="footer-logo" src="./imagenes/GitHub-Mark-Light-64px.png" alt="githublogo"></a>
                     <img class="footer-logo" src="./imagenes/enfasiscierra.png" alt="tres líneas de énfasis">
 
                     <img class="footer-logo footer-logo-izquierda" src="./imagenes/enfasisabre.png" alt="tres líneas de énfasis">
                     <a class="nav-link" href="mailto:contacto@helenamachado.art?Subject=¡Hablemos%20de%20...%20!%20"><img class="footer-logo" src="./imagenes/mail.png" alt="icono de sobre"></a>
                     <img class="footer-logo" src="./imagenes/enfasiscierra.png" alt="tres líneas de énfasis">
             </div>
-            <p class="">&copy; Diseño Web e Ilustraciones de Helena Machado</p>
+            <p>&copy; Diseño Web e Ilustraciones de Helena Machado</p>
         </div>
     </footer>
     <!--..............SCRIPTS..............-->

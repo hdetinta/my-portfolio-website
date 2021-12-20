@@ -2,3 +2,22 @@
 .eventos {
     padding: 3rem;
 }
+.desplegable {
+    background-color:rgb(147, 115, 94);
+        &-div {
+            margin-bottom: 1rem;
+        }
+    
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: rgb(147, 115, 94); 
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    color: white ;
+    background-color:rgb(147, 115, 94) ;
+}
+.borde{
+    border-radius: 10px;
+}
