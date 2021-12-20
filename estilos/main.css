@@ -227,6 +227,13 @@ section {
     top: 8rem;
     max-height: 25rem;
     padding-left: 3rem; }
+  .portada-movil {
+    z-index: 15;
+    position: absolute;
+    max-width: 17rem;
+    top: 6.5rem;
+    left: 2rem;
+    visibility: hidden; }
 
 .fondo-blanco {
   background-color: white; }
@@ -569,6 +576,8 @@ textarea {
     .footer-vh {
       min-height: 25vh; }
   /*____________________MAIN__________________________________*/
+  .portada-movil {
+    visibility: visible; }
   .carrusel {
     visibility: hidden; }
   .index-portfolio-imagen {
