@@ -1,13 +1,10 @@
 /*-----------------------------------MAIN EVENTOS-----------------------------------*/
-.eventos {
-    padding: 3rem;
-}
+
 .desplegable {
-    background-color:rgb(147, 115, 94);
+    background-color: rgb(147, 115, 94); 
         &-div {
             margin-bottom: 1rem;
         }
-    
 }
 .accordion-button:focus {
     z-index: 3;
