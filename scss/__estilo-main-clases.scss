@@ -23,10 +23,13 @@
                 }
         }
     /*_______4. Horarios_______*/
-        
         .item-horarios {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            display: flex;
+            flex-direction: row;
+        }
+        .horario-dropdown {
+            min-width: 10rem;
+            padding: 0.5rem;
         }
     /*_______5. Lugar_______*/
         .taller { 

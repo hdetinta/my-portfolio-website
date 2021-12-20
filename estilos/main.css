@@ -289,8 +289,12 @@ section {
 
 /*_______4. Horarios_______*/
 .item-horarios {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+  display: flex;
+  flex-direction: row; }
+
+.horario-dropdown {
+  min-width: 10rem;
+  padding: 0.5rem; }
 
 /*_______5. Lugar_______*/
 .taller {
@@ -505,6 +509,13 @@ textarea {
     max-width: 25rem; }
   /*____________________3.1 MAIN GALERÍA__________________________________*/
   /*____________________MAIN CLASES__________________________________*/
+  /*Sección Horarios*/
+  .item-horarios {
+    display: flex;
+    flex-direction: column; }
+  .horario-dropdown {
+    min-width: 6rem;
+    padding: 0.5rem; }
   /*Sección Lugar*/
   .taller {
     display: grid;
@@ -630,6 +641,9 @@ textarea {
     .contacto-movil-extra {
       padding: 2rem; }
   /*____________________MAIN CLASES__________________________________*/
+  .horario-dropdown {
+    min-width: 15rem;
+    padding: 0.5rem; }
   /*Sección Lugar*/
   .taller {
     display: grid;
