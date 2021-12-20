@@ -176,6 +176,12 @@ section {
 .icon {
   max-width: 25px; }
 
+.error {
+  display: flex;
+  justify-content: center; }
+  .error-imagen {
+    width: 75%; }
+
 /*------Fondos------------------*/
 .fondo-papel {
   background-image: url(../imagenes/ep_naturalwhite.png);
