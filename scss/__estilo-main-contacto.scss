@@ -31,9 +31,7 @@ textarea {
     border: none;
     width: 100%;
 }
-select {
-    border: none;
-}
+/*El span que aparece en móvil*/
 .asunto-movil {
     display: none;
 }
@@ -43,6 +41,13 @@ select {
     padding: 0.375rem 0.75rem;
 }
 .check {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1rem;
+}
+.aceptar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+
 }

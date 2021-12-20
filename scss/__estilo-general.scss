@@ -30,14 +30,14 @@ section {
 .no-margin {
     margin: 0px;
 }
-/*CORRECCION PROBLEMAS DE BOOSTRAP, generaba desplazamiento lateral*/
-.row {
-    margin-right: 0rem;
-}
-.navbar-expand .navbar-nav .dropdown-menu {
-    left: -57px;
-    position: absolute;
-}
+    /*CORRECCION PROBLEMAS DE BOOSTRAP, generaba desplazamiento lateral*/
+    .row {
+        margin-right: 0rem;
+    }
+    .navbar-expand .navbar-nav .dropdown-menu {
+        left: -57px;
+        position: absolute;
+    }
 
     /*---------------------------Texto---------------------------*/
         .texto {
@@ -78,9 +78,7 @@ section {
         }
         .imagen-filtro {
             width: 100%;
-            
             object-fit: contain;
-            
         }
         .imagen-prueba {
             max-width: 100%;
@@ -101,6 +99,7 @@ section {
     /*------Fondos------------------*/
         .fondo-papel {
             background-image:url(../imagenes/ep_naturalwhite.png);
+            background-attachment: fixed;
                     /*=========================================================================
                     This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ 
                     If you need more, that's where to get'em.

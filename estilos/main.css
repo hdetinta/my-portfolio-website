@@ -24,7 +24,7 @@ aside {
     margin-top: 1rem;
     padding: 0,5rem; }
   aside a:hover {
-    color: #81524c; }
+    color: #93735e; }
   aside-hover:hover {
     transform: translate(6px, 6px); }
 
@@ -63,6 +63,9 @@ aside {
 
 .dropdown-menu .margen-inferior {
   padding-bottom: 2rem; }
+
+.hover-aside:hover {
+  transform: translate(20px, 0px); }
 
 /*-----------------------------------FOOTER-----------------------------------*/
 .footer {
@@ -176,6 +179,7 @@ section {
 /*------Fondos------------------*/
 .fondo-papel {
   background-image: url(../imagenes/ep_naturalwhite.png);
+  background-attachment: fixed;
   /*=========================================================================
                     This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ 
                     If you need more, that's where to get'em.
@@ -246,19 +250,10 @@ section {
   min-width: 100%; }
 
 /*-----------------------------------MAIN CLASES-----------------------------------*/
-.imagen-max-espacio {
-  max-width: fit-content;
-  max-height: 500px;
-  object-fit: cover; }
-
-.enfasis {
-  font-size: 200%;
-  font-weight: bold; }
-
-.aviso {
-  color: black;
-  text-align: left; }
-
+/*Ordenadas por secciones..........................................................*/
+/*_______1. Objetivo_______*/
+/*_______2. Funcionamiento_______*/
+/*_______3. Materiales_______*/
 .seccion-materiales {
   background-image: url(./imagenes/materiales.jpg);
   background-size: contain;
@@ -274,27 +269,42 @@ section {
   .seccion-materiales div p {
     padding-left: 2rem; }
 
+/*_______4. Horarios_______*/
 .item-horarios {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
 
-.seccion-lugar {
+/*_______5. Lugar_______*/
+.taller {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  margin: 0px;
-  padding: 0px; }
-  .seccion-lugar div iframe {
-    padding: 2rem; }
-  .seccion-lugar div p {
-    padding-left: 2rem; }
+  column-gap: 2rem; }
+  .taller-imagen {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; }
 
-.taller {
-  padding: 2rem; }
+.mapa {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1.5rem; }
 
-.fondo-funcionamiento {
-  background-image: url(/imagenes/funcionamiento.png);
-  background-size: contain; }
+.lugar-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 2fr;
+  padding: 2rem;
+  border-radius: 10px; }
+
+/*_______6. Información_______*/
+.aviso {
+  color: black;
+  text-align: left; }
+
+.enfasis {
+  font-size: 200%;
+  font-weight: bold; }
 
 /*-----------------------------------MAIN CONTACTO-----------------------------------*/
 .datos {
@@ -328,9 +338,7 @@ textarea {
   border: none;
   width: 100%; }
 
-select {
-  border: none; }
-
+/*El span que aparece en móvil*/
 .asunto-movil {
   display: none; }
 
@@ -340,12 +348,18 @@ select {
   padding: 0.375rem 0.75rem; }
 
 .check {
-  width: 1.5rem;
-  height: 1.5rem; }
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem; }
+
+.aceptar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline; }
 
 /*-----------------------------------MAIN EVENTOS-----------------------------------*/
-.eventos-slider {
-  background-color: grey; }
+.eventos {
+  padding: 3rem; }
 
 /*-----------------------------------MAIN SOBRE MÍ-----------------------------------*/
 .sobremi {
@@ -360,7 +374,33 @@ select {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(6);
-  column-gap: 1rem; }
+  column-gap: 1rem;
+  row-gap: 1rem; }
+
+/*Corrección de estilo para el zoom implementado a través de Lightbox*/
+.lightbox {
+  display: block;
+  height: auto;
+  max-width: inherit;
+  max-height: none;
+  border-radius: 0px;
+  border: none; }
+
+.lb-image {
+  display: block;
+  height: auto;
+  max-width: inherit;
+  max-height: none;
+  border: none; }
+
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  max-width: inherit;
+  max-height: none;
+  border-radius: 0px !important;
+  /* No se sobreescribía sencillamente cambiando la clase, necesario important para anular lightbox. Pendiente una solución mejor.*/
+  border: none !important; }
 
 /*..Media Querys..*/
 /*...............................................................................................................
@@ -404,19 +444,58 @@ select {
     justify-content: space-around; }
   /*____________________2. FOOTER__________________________________*/
   /*____________________3. MAIN__________________________________*/
+  .carrusel {
+    z-index: 10;
+    padding-right: 2rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    max-width: 25rem; }
+  .suelo {
+    position: absolute;
+    z-index: 3;
+    top: 0rem;
+    width: 100%;
+    height: 31rem;
+    background-color: white;
+    overflow: hidden; }
+  .portada {
+    margin: 0px;
+    padding: 0px; }
+    .portada-ilus {
+      position: absolute;
+      z-index: 10;
+      top: 8rem;
+      max-height: 25rem;
+      padding-left: 3rem; }
   .titulo {
     margin: 2rem; }
+  .index-portfolio-imagen {
+    max-width: 25rem;
+    margin-top: 6rem; }
   /*____________________3.1 MAIN GALERÍA__________________________________*/
-  .galeria {
+  /*____________________MAIN CLASES__________________________________*/
+  /*Sección Lugar*/
+  .taller {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(9);
-    column-gap: 1rem; }
-  /*____________________MAIN CLASES__________________________________*/
+    grid-template-rows: auto;
+    column-gap: 2rem; }
+    .taller-imagen {
+      max-height: 30rem;
+      border-radius: 10px; }
+  .lugar-div {
+    max-height: 30rem;
+    padding: 2rem;
+    border-radius: 10px;
+    min-width: 15rem; }
+  .mapa {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0.5rem; }
   /*____________________MAIN SOBRE MI__________________________________*/
   .sobremi {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 60% 40%;
     grid-template-columns: 1fr; }
     .sobremi div {
       justify-self: center; }
@@ -464,6 +543,23 @@ select {
     .footer-vh {
       min-height: 25vh; }
   /*____________________MAIN__________________________________*/
+  .carrusel {
+    visibility: hidden; }
+  .index-portfolio-imagen {
+    max-width: 20rem; }
+  .suelo {
+    position: absolute;
+    z-index: 3;
+    top: 0rem;
+    width: 100%;
+    height: 26rem;
+    background-color: white;
+    overflow: hidden; }
+  .portada {
+    margin: 0px;
+    padding: 0px; }
+    .portada-ilus {
+      visibility: hidden; }
   section {
     margin: 0rem;
     padding: 2rem; }
@@ -473,6 +569,12 @@ select {
   .galeria {
     display: grid;
     grid-template-columns: 1fr; }
+  .inclinar-derecha:hover {
+    transform: rotate(0deg) translate(0px, 0px); }
+  .inclinar-izquierda:hover {
+    transform: rotate(0deg) translate(0px, 0px); }
+  .subir:hover {
+    transform: translateY(0px); }
   /*____________________MAIN SOBRE MI__________________________________*/
   .sobremi {
     display: grid;
@@ -490,11 +592,30 @@ select {
     padding: 1rem;
     margin-bottom: 2rem; }
     .contacto-movil-extra {
-      padding: 2rem; } }
+      padding: 2rem; }
+  /*____________________MAIN CLASES__________________________________*/
+  /*Sección Lugar*/
+  .taller {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    column-gap: 2rem; }
+    .taller-imagen {
+      margin-top: 2rem;
+      max-height: 30rem;
+      border-radius: 10px; }
+  .lugar-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 2fr;
+    padding: 2rem;
+    border-radius: 10px;
+    max-height: 30rem; } }
 
 /*--Referencias--*/
 /*
 - En clases.html // __estilo-main-clases.scss>.fondo-clases se utiliza:
 www.toptal.com/designers/subtlepatterns/ 
 - Animación de títulos en todas las páginas wowjs.uk
+- Zoom para la galería: https://lokeshdhakar.com/projects/lightbox2/
 */

@@ -47,6 +47,28 @@
                 }
         }
         /*____________________MAIN__________________________________*/
+        .carrusel {
+            visibility: hidden;
+        }
+        .index-portfolio-imagen {
+            max-width: 20rem;
+        }
+        .suelo {
+            position: absolute;
+            z-index: 3;
+            top: 0rem;
+            width: 100%;
+            height: 26rem;
+            background-color: white;
+            overflow: hidden;
+        }
+        .portada {
+            margin: 0px;
+            padding: 0px;
+                &-ilus {
+                    visibility: hidden;
+                }
+        }
         section {
             margin: 0rem;
             padding: 2rem;
@@ -58,6 +80,15 @@
         .galeria {
             display: grid;
             grid-template-columns: 1fr;
+        }
+        .inclinar-derecha:hover {
+            transform: rotate(0deg) translate(0px, 0px)
+        }
+        .inclinar-izquierda:hover {
+            transform: rotate(0deg) translate(0px, 0px)
+        }
+        .subir:hover {
+            transform: translateY(0px)
         }
         /*____________________MAIN SOBRE MI__________________________________*/
         .sobremi{
@@ -81,5 +112,27 @@
                 &-extra {
                     padding: 2rem;
                 }
+        }
+
+        /*____________________MAIN CLASES__________________________________*/
+        /*Sección Lugar*/
+        .taller { 
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            column-gap: 2rem;
+            &-imagen {
+                margin-top: 2rem;
+                max-height: 30rem;
+                border-radius: 10px;
+            }
+        }
+        .lugar-div {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 3fr 2fr;
+            padding: 2rem;
+            border-radius: 10px;
+            max-height: 30rem;
         }
 }

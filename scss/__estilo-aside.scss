@@ -9,7 +9,7 @@ aside {
             padding: 0,5rem;
         }
         & a:hover{
-            color: rgb(129, 82, 76);
+            color: rgb(147, 115, 94);
         }
         &-hover:hover {
             transform: translate(6px, 6px);
@@ -19,7 +19,6 @@ aside {
     color: white;
     font-size: 100%;
     font-weight: bold;
-    
         &-logo {
             margin: 1rem;
             margin-top: 0;
@@ -30,6 +29,7 @@ aside {
             max-height: 1rem;
             padding-left: 0.5rem;
         }
+        
 }
 .justify {
     display: flex;
@@ -56,4 +56,7 @@ aside {
 .margen-inferior {
     padding-bottom: 2rem;
     }
+}
+.hover-aside:hover {
+        transform: translate(20px, 0px)
 }
