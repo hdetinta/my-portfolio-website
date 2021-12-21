@@ -9,12 +9,7 @@ aside {
             margin-top: 1rem;
             padding: 0,5rem;
         }
-        & a:hover{
-            color: rgb(147, 115, 94);
-        }
-        &-hover:hover {
-            transform: translate(6px, 6px);
-        }
+        
 }
 .aside {
     color: white;
@@ -56,6 +51,5 @@ aside {
     padding-bottom: 2rem;
     }
 }
-.hover-aside:hover {
-        transform: translate(20px, 0px)
-}
+
+
