@@ -447,7 +447,7 @@ textarea {
   max-width: inherit;
   max-height: none;
   border-radius: 0px !important;
-  /* No se sobreescribía sencillamente cambiando la clase, necesario important para anular lightbox. Pendiente una solución mejor.*/
+  /* No se sobreescribía sencillamente cambiando la clase, necesario important para anular lightbox.*/
   border: none !important; }
 
 /*..Media Querys..*/
