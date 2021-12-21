@@ -117,19 +117,21 @@
             margin-bottom: 2rem;
                 &-extra {
                     padding: 2rem;
+                    padding-top: 0rem;
                 }
         }
 
         /*____________________MAIN CLASES__________________________________*/
-        .horario-dropdown {
-            min-width: 15rem;
-            padding: 0.5rem;
+        .padding-clases {
+            padding: 1.5rem;
         }
+        /*Sección Horario*/
+        
         /*Sección Lugar*/
         .taller { 
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: auto;
+            grid-template-rows: 1fr 1fr;
             column-gap: 2rem;
             &-imagen {
                 margin-top: 2rem;
