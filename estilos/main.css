@@ -293,11 +293,19 @@ section {
 /*_______4. Horarios_______*/
 .item-horarios {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  justify-content: space-evenly; }
 
 .horario-dropdown {
   min-width: 10rem;
   padding: 0.5rem; }
+
+.borde {
+  border-radius: 10px;
+  border: 2px; }
+
+.flecha {
+  padding-right: 0.5rem; }
 
 /*_______5. Lugar_______*/
 .taller {
