@@ -34,11 +34,7 @@ aside {
   .aside-logo {
     margin: 1rem;
     margin-top: 0;
-    width: 90%;
-    height: 100%;
-    background-image: url(../imagenes/logohover.png); }
-  .aside-logo:hover {
-    visibility: hidden; }
+    width: 90%; }
   .aside-lapiz {
     max-height: 1rem;
     padding-left: 0.5rem; }
@@ -73,12 +69,13 @@ aside {
 .footer {
   background-color: #93735e;
   padding: 2rem;
-  text-align: center; }
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-size: 0.8rem; }
   .footer-redes {
     display: flex;
     justify-content: center;
-    margin: 2rem;
-    margin-top: 1rem; }
+    margin: 1rem; }
   .footer-logo {
     width: 2rem;
     margin: 0; }
@@ -408,6 +405,9 @@ textarea {
   color: #9c9d9f;
   font-weight: bold; }
 
+.carousel-eventos {
+  height: 20rem; }
+
 /*-----------------------------------MAIN SOBRE MÍ-----------------------------------*/
 .sobremi {
   display: grid;
@@ -553,7 +553,8 @@ textarea {
     .sobremi div {
       justify-self: center; }
     .sobremi-imagen {
-      max-height: 30rem; } }
+      max-height: 30rem; }
+  /*____________________MAIN EVENTOS__________________________________*/ }
 
 /*...............................................................................................................
 .................................................................................................................*/
