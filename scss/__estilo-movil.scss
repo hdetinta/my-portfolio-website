@@ -23,10 +23,9 @@
             
                 &-redes {
                     display: grid;
-                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-columns: 2fr 1fr 2fr;
                     grid-template-rows: 1fr 1fr 1fr;
-                    margin: 2rem;
-                    margin-top: 1rem;
+                    margin: 1rem;
                 }
                 &-logo {
                     width: 2rem;
