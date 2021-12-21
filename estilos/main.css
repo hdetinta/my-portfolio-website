@@ -404,6 +404,10 @@ textarea {
 .borde {
   border-radius: 10px; }
 
+.subtitulo {
+  color: #9c9d9f;
+  font-weight: bold; }
+
 /*-----------------------------------MAIN SOBRE MÍ-----------------------------------*/
 .sobremi {
   display: grid;
