@@ -208,9 +208,8 @@ section {
   z-index: 10;
   padding-right: 3rem;
   margin-top: 4rem; }
-
-.carrusel-desborde {
-  max-height: 390px; }
+  .carrusel-alto {
+    max-height: 400px; }
 
 .suelo {
   position: absolute;
@@ -264,11 +263,6 @@ section {
 #p-i-portfolio {
   padding-left: 1rem;
   margin-top: 3rem; }
-
-/*Flecha carousel Bootstrap*/
-.carousel-control-next-icon {
-  background-image: url(../imagenes/lapiz.png);
-  min-width: 100%; }
 
 /*-----------------------------------MAIN CLASES-----------------------------------*/
 /*Ordenadas por secciones..........................................................*/
