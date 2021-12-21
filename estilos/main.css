@@ -23,10 +23,6 @@ aside {
   aside nav ul li {
     margin-top: 1rem;
     padding: 0,5rem; }
-  aside a:hover {
-    color: #93735e; }
-  aside-hover:hover {
-    transform: translate(6px, 6px); }
 
 .aside {
   color: white;
@@ -62,9 +58,6 @@ aside {
 
 .dropdown-menu .margen-inferior {
   padding-bottom: 2rem; }
-
-.hover-aside:hover {
-  transform: translate(20px, 0px); }
 
 /*-----------------------------------FOOTER-----------------------------------*/
 .footer {
@@ -145,6 +138,9 @@ section {
 
 .texto-derecha {
   text-align: right; }
+
+.texto-izquierda {
+  text-align: left; }
 
 .destacado {
   color: #81524c;
@@ -325,10 +321,6 @@ section {
   border-radius: 10px; }
 
 /*_______6. Información_______*/
-.aviso {
-  color: black;
-  text-align: left; }
-
 .enfasis {
   font-size: 200%;
   font-weight: bold; }
@@ -678,7 +670,10 @@ textarea {
     grid-template-rows: 3fr 2fr;
     padding: 2rem;
     border-radius: 10px;
-    max-height: 30rem; } }
+    max-height: 30rem; }
+  /*____________________MAIN EVENTOS__________________________________*/
+  .padding-top {
+    padding-top: 2rem; } }
 
 /*--Referencias--*/
 /*
