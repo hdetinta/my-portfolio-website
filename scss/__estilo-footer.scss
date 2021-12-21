@@ -2,12 +2,13 @@
 .footer {
     background-color: rgb(147, 115, 94);
     padding: 2rem;
+    padding-bottom: 0.5rem;
     text-align: center;
+    font-size: 0.8rem;
         &-redes {
             display: flex;
             justify-content: center;
-            margin: 2rem;
-            margin-top: 1rem;
+            margin: 1rem;
         }
         &-logo {
             width: 2rem;

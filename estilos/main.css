@@ -18,7 +18,8 @@ ________________________________________________________________________________
 aside {
   background-color: black;
   font-size: 20px;
-  z-index: 3; }
+  z-index: 3;
+  min-width: 230px; }
   aside nav ul li {
     margin-top: 1rem;
     padding: 0,5rem; }
@@ -34,11 +35,7 @@ aside {
   .aside-logo {
     margin: 1rem;
     margin-top: 0;
-    width: 90%;
-    height: 100%;
-    background-image: url(../imagenes/logohover.png); }
-  .aside-logo:hover {
-    visibility: hidden; }
+    width: 90%; }
   .aside-lapiz {
     max-height: 1rem;
     padding-left: 0.5rem; }
@@ -73,12 +70,13 @@ aside {
 .footer {
   background-color: #93735e;
   padding: 2rem;
-  text-align: center; }
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-size: 0.8rem; }
   .footer-redes {
     display: flex;
     justify-content: center;
-    margin: 2rem;
-    margin-top: 1rem; }
+    margin: 1rem; }
   .footer-logo {
     width: 2rem;
     margin: 0; }
@@ -168,7 +166,7 @@ section {
   width: 100%;
   object-fit: contain; }
 
-.imagen-prueba {
+.imagen {
   max-width: 100%;
   max-height: 100%; }
 
@@ -408,6 +406,9 @@ textarea {
   color: #9c9d9f;
   font-weight: bold; }
 
+.carousel-eventos {
+  height: 20rem; }
+
 /*-----------------------------------MAIN SOBRE MÍ-----------------------------------*/
 .sobremi {
   display: grid;
@@ -553,7 +554,8 @@ textarea {
     .sobremi div {
       justify-self: center; }
     .sobremi-imagen {
-      max-height: 30rem; } }
+      max-height: 25rem; }
+  /*____________________MAIN EVENTOS__________________________________*/ }
 
 /*...............................................................................................................
 .................................................................................................................*/
@@ -578,10 +580,9 @@ textarea {
     padding: 2rem; }
     .footer-redes {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr 2fr;
       grid-template-rows: 1fr 1fr 1fr;
-      margin: 2rem;
-      margin-top: 1rem; }
+      margin: 1rem; }
     .footer-logo {
       width: 2rem;
       margin: 0;
